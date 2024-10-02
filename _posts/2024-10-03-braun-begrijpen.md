@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Braun"
-date: 2024-02-09
+title: "Braun begrijpen"
+date: 2024-10-03
 ---
 
 <style>
@@ -15,7 +15,7 @@ date: 2024-02-09
 # gek
 
 - local quasi-stable voelt gek? Want als je animatie bekijkt lijkt het vooral dat alles netjes op de lijn komt ipv de nullcline van de reactie. Die laatste wordt heel kort gevolgd tot die redelijk rap naar de 
-- 
+
 # Afleidingen
 <div class="math-container">\[
 \begin{aligned}
@@ -127,4 +127,4 @@ Using fsolve to find the intersections with the line parametrized by $$\eta$$, a
 
 
 
-[View Raw Markdown](/assets/md/Braun.md)
+[View Raw Markdown](/assets/md/Braun begrijpen.md)

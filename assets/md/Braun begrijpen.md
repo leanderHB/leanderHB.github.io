@@ -1,6 +1,7 @@
 # gek
 
 - local quasi-stable voelt gek? Want als je animatie bekijkt lijkt het vooral dat alles netjes op de lijn komt ipv de nullcline van de reactie. Die laatste wordt heel kort gevolgd tot die redelijk rap naar de 
+
 # Afleidingen
 $$
 \begin{aligned}
