@@ -3,13 +3,15 @@ layout: post
 title: "Self adjoint?"
 date: 2024-05-10
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 The linear stability problem can be written as:
 <div class="math-container">\[
 \begin{aligned}
@@ -39,3 +41,6 @@ We can partially integrate twice, use zero-flux BC's and get:
 \]</div>
 But $$A$$ is not selfadjoint :(
 
+
+
+[View Raw Markdown](/assets/md/Self adjoint?.md)

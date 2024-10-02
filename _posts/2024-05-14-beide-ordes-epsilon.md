@@ -3,13 +3,15 @@ layout: post
 title: "Beide ordes epsilon"
 date: 2024-05-14
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 Consider traveling wave coordinates $$x = \chi+\epsilon^\alpha c t$$ where $$\chi$$ is the ordinary space coordinate. Then:
 <div class="math-container">\[
 U_{t} = U_xx_t = \epsilon^\alpha c U_x
@@ -77,3 +79,6 @@ order: $$\epsilon^1$$
 V_1(\xi)&=V_1 
 \end{aligned}\]</div>
 another Sturm-Liouville problem
+
+
+[View Raw Markdown](/assets/md/Beide ordes epsilon.md)

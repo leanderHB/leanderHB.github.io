@@ -3,13 +3,15 @@ layout: post
 title: "Homoclinics"
 date: 2024-09-18
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 We start by slightly shifting $$K$$ and end up with $$K+\delta$$ with $$\delta\ll 1$$. Then we find the corrections to $$U^\pm_{het},V^\pm_{het}$$ as:
 <div class="math-container">\[\begin{aligned}
 U^\pm_{hom}=U^{\pm}_{het}+\delta \frac{f_V}{f_U}(U^\pm_{het},V^\pm_{het})\\
@@ -97,3 +99,6 @@ So then:
 <div class="math-container">\[
 \delta = \exp\left(-\frac{\sqrt c}{\epsilon }W \right)
 \]</div>
+
+
+[View Raw Markdown](/assets/md/Homoclinics.md)

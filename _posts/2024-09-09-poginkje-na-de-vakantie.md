@@ -3,13 +3,15 @@ layout: post
 title: "Poginkje na de vakantie"
 date: 2024-09-09
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 
 With the information that $$v_0=0$$, this becomes: 
 <div class="math-container">\[
@@ -47,3 +49,6 @@ or written differently:
 <div class="math-container">\[
 \langle (u_0)^2, f_{UU}^* U_1^*+f_{UV}^* (K_1^*-U_0^*)- f_V^* \rangle = \hat\lambda\|u_0\|^2_2
 \]</div>
+
+
+[View Raw Markdown](/assets/md/Poginkje na de vakantie.md)

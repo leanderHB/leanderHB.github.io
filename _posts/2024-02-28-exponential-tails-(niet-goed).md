@@ -3,13 +3,15 @@ layout: post
 title: "Exponential tails (niet goed)"
 date: 2024-02-28
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 <div class="math-container">\[
 \newcommand{\Tr}{\operatorname{Tr}}
 \]</div>
@@ -158,3 +160,6 @@ A_t &= \delta l^2 A(t) + f_uA+f_v B\\
 \]</div>
 hmm zelfde systeem, dus ik dacht iets te makkelijk :((
 jammer jammer :(
+
+
+[View Raw Markdown](/assets/md/Exponential tails (niet goed).md)

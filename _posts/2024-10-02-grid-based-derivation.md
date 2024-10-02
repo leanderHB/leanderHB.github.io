@@ -3,13 +3,15 @@ layout: post
 title: "Grid based derivation"
 date: 2024-10-02
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 If the plant is there and the food is there, there's a certain probability of the plant uptaking the food. Also, plant have a certain chance of "duplicating", by taking up the food. Besides that, the plants and the food do a random walk with a certain rate. 
 - plant eats food: $$P+F \xrightarrow{\alpha(P,F)} 2P$$
 - plant dies: $$P\xrightarrow{\beta(P,F)} F$$
@@ -80,3 +82,6 @@ f_V-f_U>0
 \]</div>
 
 
+
+
+[View Raw Markdown](/assets/md/Grid based derivation.md)

@@ -3,13 +3,15 @@ layout: post
 title: "Vergelijking met Mara"
 date: 2024-04-08
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 Ik ben het eens met mara tot het volgende stuk:
 <img src="/assets/images/Pasted image 20240318121007.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240318121007.png">
 De limieten van de afgeleiden $$\xi\to\pm\infty$$ zijn volgens mij niet nul, maar gewoon de afgeleiden op $$(u_-,v_-)$$ en $$(u_+,v_+)$$. Deze aanname zorgt ervoor dat de uitdrukking voor het exponent niet klopt volgens mij. 
@@ -276,3 +278,5 @@ Verder is dit ook gek:
 De integraal over $$r$$ word hier $$O(\sqrt\epsilon)$$, terwijl we de snelle variabele integreren, dus juist een $$O(1/\sqrt{\epsilon})$$ zouden moeten krijgen. 
 
 Het verhaal met de sign van de integraal over $$S_{in}$$ heb ik verder niet helemaal bestudeerd, omdat ik eerder niet snapte hoe ze daar op kwam, en nu denk dat het waarschijnlijk voortbouwt op verkeerde resultaten. 
+
+[View Raw Markdown](/assets/md/Vergelijking met Mara.md)

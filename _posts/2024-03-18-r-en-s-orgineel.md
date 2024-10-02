@@ -3,13 +3,15 @@ layout: post
 title: "r en s orgineel"
 date: 2024-03-18
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 # linearizing fast
 <div class="math-container">\[
 \begin{aligned}
@@ -126,3 +128,5 @@ Actually, we know what $$f_v(\pm\sqrt\epsilon)$$ is, the slow system tells us it
 \int_{-\sqrt\epsilon}^\sqrt\epsilon r_{\xi\xi}d\xi = -2\epsilon\sqrt\lambda
 \]</div>
 So all that's left is to insert $$r_{\xi\xi}$$: oh but we said it's equal to zero :P
+
+[View Raw Markdown](/assets/md/r en s orgineel.md)

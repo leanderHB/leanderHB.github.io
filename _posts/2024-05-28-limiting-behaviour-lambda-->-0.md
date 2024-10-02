@@ -3,13 +3,15 @@ layout: post
 title: "Limiting behaviour lambda -> 0"
 date: 2024-05-28
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 Here, I'll try to find a similar result as in DV_JDDE for heteroclinic orbits.
 ### Lemma Lea
 Consider the problem $$v_{xx}+f(v)=0$$. We know this is a Hamiltonian problem with Hamiltonian $$H=(v_x)^2+ F(v)$$, where $$F'=f$$. Then if there are two distinct $$v_-,v_+$$, such that $$f(v_\pm)=0$$, $$\rho_\pm:=f_v(v_\pm)\not=0$$ and $$F(v_-)=F(v_+)$$, and also $$F(v)< F(v_-)$$ for all $$v\in (v_-,v_+)$$, then there exists a heteroclinic orbit between $$v_-$$ and $$v_+$$, with exponential decay towards the saddles with rates $$\sqrt{\rho_\pm}$$. Moreover, we can explicitly write down first order ODE's for this solution as:
@@ -296,3 +298,6 @@ Wat is poincare expansion theorem?
 
 
 hoe krijg je de $$(-1)^i$$ voor $$w^L$$? 
+
+
+[View Raw Markdown](/assets/md/Limiting behaviour lambda -> 0.md)

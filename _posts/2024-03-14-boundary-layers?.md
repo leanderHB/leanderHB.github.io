@@ -3,13 +3,15 @@ layout: post
 title: "Boundary layers?"
 date: 2024-03-14
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 Oh we should use $$[-\sqrt\epsilon,\sqrt\epsilon]$$? Since is $$\epsilon<<1$$, then definitely $$[-\epsilon,\epsilon]\subseteq [-\sqrt\epsilon,\sqrt\epsilon]$$.  
 Boundary layer is something like $$[-\epsilon,\epsilon]$$, using Brauns to note that the interface width scales as $$\sqrt{D_u/D_v}$$.  Outer layer left:
 <div class="math-container">\[
@@ -72,3 +74,6 @@ als je invult:
 = \begin{pmatrix}1\\1 \end{pmatrix}+ \begin{pmatrix}0\\1 \end{pmatrix}+ \begin{pmatrix}1\\2 \end{pmatrix} =\begin{pmatrix}2\\4 \end{pmatrix}
 \end{aligned}
 \]</div>
+
+
+[View Raw Markdown](/assets/md/Boundary layers?.md)

@@ -3,13 +3,15 @@ layout: post
 title: "Interacties in zelfde variabelen namen"
 date: 2024-03-20
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 Here are the equations with the variable names changed as per your request:
 
 We introduce locations $$P_j(t)$$, where $$j=1,\dots,N$$, which introduces $$N$$ inner (boundary) layers with $$N+1$$ outer layers. Denote:
@@ -92,3 +94,6 @@ take $$f=(v_0)_{\xi_j}$$ and $$g'=f_u(\xi)$$, then:
 <div class="math-container">\[
 \int_{I_f} (v_0)_{\xi_j}f_u(\xi)=(v_0)_{\xi_j}F_u\Big|_{-1/\sqrt\epsilon}^{1/\sqrt\epsilon} -\int_{-1/\sqrt\epsilon}^{1/\sqrt\epsilon}
 \]</div>
+
+
+[View Raw Markdown](/assets/md/Interacties in zelfde variabelen namen.md)

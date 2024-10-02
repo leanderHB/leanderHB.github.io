@@ -3,13 +3,15 @@ layout: post
 title: "Research proposal"
 date: 2024-04-11
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 Title: Stability and Interaction of Patterns formed in Conserved Reaction Diffusion Equations.
 Leander Post - 14060957
 
@@ -31,3 +33,5 @@ If all this goes well, I will expand this theory to radial systems, possibly in 
 72 ECTS is more than 2000 hours, so this definitely is subject to change. But I'll start with mostly literature research, reading papers in the field. So far I am planning to study "singular geometric perturbation theory", since $$\epsilon^2$$ will become small at some point. Also I'll expand my knowledge on "Sturm-Liouville theory". I will also try to employ the Evans function to study the stability and tie it together with Fenichel theory, which will make the perturbation rigorous. For the interactions, I will look at different kinds like strong, semi-strong and weak interactions, and will likely settle on studying the weak interactions. 
 While researching the literature, I'll try to formulate the results in a way that makes sense for my context. Also where possible, I'll use numerics to generate images of the problem at hand, which will be there for the final paper and my own intuition. 
 So very roughly: Literature research until september, results etc until may, writing the report until the end.
+
+[View Raw Markdown](/assets/md/Research proposal.md)

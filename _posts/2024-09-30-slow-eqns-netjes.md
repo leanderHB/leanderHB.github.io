@@ -3,13 +3,15 @@ layout: post
 title: "Slow eqns netjes"
 date: 2024-09-30
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 For the slow equations, we introduce $$X=\epsilon x$$. Then the (superslow) equations become:
 <div class="math-container">\[
 \begin{aligned}
@@ -43,3 +45,6 @@ in the fast coordinate $$\xi= X/\epsilon^2$$, we then get on the left:
 <div class="math-container">\[
 v(\xi) = A\exp\left(\epsilon^2\sqrt{\hat\lambda\frac{f_U^*-f_V^*}{f_U^*} }\xi \right)
 \]</div>
+
+
+[View Raw Markdown](/assets/md/Slow eqns netjes.md)

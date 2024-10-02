@@ -3,13 +3,15 @@ layout: post
 title: "Functional derivatives?"
 date: 2024-06-24
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 Maybe this:
 <div class="math-container">\[
 H=u_{1,\xi\xi}^*+f_u(u^*_0,K^*_0)u_1^*+f_v(u^*_0,K^*_0)(K_1^*-u_0^*)=0
@@ -28,3 +30,6 @@ The linear terms in $$\delta w$$ are:
 \frac{d H}{d u_0^*}=f_{uu}(u^*_0,K^*_0)u_1^*+f_{vu}(u^*_0,K^*_0)K_1^*+f_v(u^*_0,K^*_0)
 \end{aligned}
 \]</div>
+
+
+[View Raw Markdown](/assets/md/Functional derivatives?.md)

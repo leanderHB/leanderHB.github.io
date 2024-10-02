@@ -3,13 +3,15 @@ layout: post
 title: "Kerstboom"
 date: 2024-05-29
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 <div class="math-container">\[\begin{aligned}
 U_t &=\epsilon^2 U_{xx}+f(U,V)\\
 V_t &= V_{xx}-f(U,V)
@@ -36,3 +38,6 @@ We'd like to paste things together, so we pick $$\tilde V_0=K$$? voelt niet hele
 \tilde U_t=\tilde U_{xx}+f(\tilde U,\tilde V_0+\epsilon^2 \tilde V_2)\\
 \]</div>
 
+
+
+[View Raw Markdown](/assets/md/Kerstboom.md)

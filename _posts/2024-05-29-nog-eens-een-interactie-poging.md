@@ -3,13 +3,15 @@ layout: post
 title: "Nog eens een interactie poging"
 date: 2024-05-29
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 We expand as follows: $$U= \bar U+\epsilon^2 u$$. Besides that, we choose wave coordinates and get $$U_t= cU_x$$ Then we obtain:
 <div class="math-container">\[
 \begin{aligned}
@@ -84,3 +86,5 @@ And of course $$\alpha$$ and $$\beta$$ have to alternate for the rising/falling 
 <div class="math-container">\[
 \partial_xf(U,V) = f_U(U,V)U_x+f_V(U,V)V_x
 \]</div>
+
+[View Raw Markdown](/assets/md/Nog eens een interactie poging.md)

@@ -3,13 +3,15 @@ layout: post
 title: "Traveling front?"
 date: 2024-03-12
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 <div class="math-container">\[
 \begin{aligned}
 u_t &= \delta\Delta u + f(u,v)\\
@@ -65,3 +67,5 @@ If $$c<<C$$, then we get approximately (oh maar dat werkt niet...)
 K\xi (c(u+v) -C)= (\delta u+v)+\eta_0
 \]</div>
 For $$K\not=0$$, this cannot stay bounded, since $$c<< C$$, so we must have $$K=0$$, and hence traveling wave solutions exist for small $$c$$, and also lie on 
+
+[View Raw Markdown](/assets/md/Traveling front?.md)

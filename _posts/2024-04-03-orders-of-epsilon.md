@@ -3,13 +3,15 @@ layout: post
 title: "Orders of epsilon"
 date: 2024-04-03
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 Consider traveling wave coordinates $$x = \chi+\epsilon^\alpha c t$$ where $$\chi$$ is the ordinary space coordinate. Then:
 <div class="math-container">\[
 U_{t} = U_xx_t = \epsilon^\alpha c U_x
@@ -115,3 +117,6 @@ slow subsystem ($$\alpha=1,\beta=1$$), order=0 <div class="math-container">\[\be
 slow subsystem ($$\alpha=1,\beta=1$$), order=1 <div class="math-container">\[\begin{aligned} c(U_{0})_{x} &=f_{V}+f_{U} \\ c(V_{0})_{x} &=(V_{1})_{xx}+f_{V}+f_{U} \end{aligned}\]</div> fast subsystem ($$\alpha=1,\beta=1$$), order=1 <div class="math-container">\[\begin{aligned} c(U_{1})_{\xi} &=(U_{1})_{\xi\xi}+f_{V}+f_{U} \\ 0 &=(V_{1})_{\xi\xi} \end{aligned}\]</div>
 #### Even higher
 slow subsystem ($$\alpha=1,\beta=1$$), order=2 <div class="math-container">\[\begin{aligned} c(U_{1})_{x} &=(U_{0})_{xx}+f_{VV}+2f_{UV}+f_{UU} \\ c(V_{1})_{x} &=(V_{2})_{xx}+f_{VV}+2f_{UV}+f_{UU} \end{aligned}\]</div> fast subsystem ($$\alpha=1,\beta=1$$), order=2 <div class="math-container">\[\begin{aligned} c(U_{2})_{\xi} &=(U_{2})_{\xi\xi}+f_{VV}+2f_{UV}+f_{UU} \\ c(V_{0})_{\xi} &=(V_{2})_{\xi\xi}+f_{} \end{aligned}\]</div>
+
+
+[View Raw Markdown](/assets/md/Orders of epsilon.md)

@@ -3,13 +3,15 @@ layout: post
 title: "Matchy matchy"
 date: 2024-09-12
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 <div class="math-container">\[\begin{aligned}
 (v_l+\epsilon^2u_l)&=C\exp(a\xi)\\
 (v_b+\epsilon^2u_b)&=C\exp(-b\xi)
@@ -60,3 +62,5 @@ let's assume $$U_{0,\xi}^*>0$$. Then $$\Delta_{fast}(v+\epsilon^2)_{\xi} = \hat\
 Let's say $$C<0$$, then $$\Delta_{slow}>0$$, so $$\lambda>0$$, so unstable. 
 
 to prove: $$C>0$$, how do? 
+
+[View Raw Markdown](/assets/md/Matchy matchy.md)

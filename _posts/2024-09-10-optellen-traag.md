@@ -3,13 +3,15 @@ layout: post
 title: "Optellen traag"
 date: 2024-09-10
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 <div class="math-container">\[
 \begin{aligned}
 \epsilon^2 \hat\lambda (u_0+\epsilon^2 u_1) &= \epsilon^2(u_0+\epsilon^2 u_1)_{xx}+[f_U^* +\epsilon^2f_{UU}^* U_1^*+\epsilon^2f_{UV}^* (K_1^*-U_0^*)](u_0+\epsilon^2 u_1)\\
@@ -50,3 +52,5 @@ we can use the equations for $$u$$:
 \end{aligned}
 \]</div>
 and now we're very sad haha :(
+
+[View Raw Markdown](/assets/md/Optellen traag.md)

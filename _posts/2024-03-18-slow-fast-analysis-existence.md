@@ -3,13 +3,15 @@ layout: post
 title: "Slow-fast analysis existence"
 date: 2024-03-18
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 We analyze the system on two separate scales, we define a boundary layer in the variable $$x$$: $$x\in[-\sqrt\epsilon,\sqrt\epsilon]$$, since the width of the front is on the order $$\epsilon$$, we can neglect the front in the slow regime, which corresponds to the plateaus. 
 ## Slow
 <div class="math-container">\[
@@ -175,3 +177,5 @@ Almost same as:
 
 <img src="/assets/images/Pasted image 20240318152434.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240318152434.png">
 <img src="/assets/images/Pasted image 20240318152403.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240318152403.png">
+
+[View Raw Markdown](/assets/md/Slow-fast analysis existence.md)

@@ -3,13 +3,15 @@ layout: post
 title: "Enge termen"
 date: 2024-06-25
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 #### note: ik heb hier een beetje zitten prutsen met de afgeleiden, en dit is afgeleid toen ik vrij op was al, dus check nog een keer!
 
 We have the "scary term"
@@ -35,3 +37,6 @@ I = -\int  [(\hat\lambda+f_{v}(u_0^*,K_0^*)) u_{0,\xi}^*-f_u(u^*_0,K^*_0)u_{1,\x
 \end{aligned}
 \]</div>
 Not sure if this is better, but at least we don't have the second derivatives anymore!
+
+
+[View Raw Markdown](/assets/md/Enge termen.md)

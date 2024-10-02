@@ -3,13 +3,15 @@ layout: post
 title: "Proberen operator als perturbed"
 date: 2024-10-01
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 <div class="math-container">\[
 \mathcal L = \mathcal L_0+\epsilon \mathcal L_1+\dots
 \]</div>
@@ -114,3 +116,5 @@ Thus:
 \]
 
 This expresses the original system as a first-order differential equation in terms of a 4-component vector \(\mathbf{p}\).
+
+[View Raw Markdown](/assets/md/Proberen operator als perturbed.md)

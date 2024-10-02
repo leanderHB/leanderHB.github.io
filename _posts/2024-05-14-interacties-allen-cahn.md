@@ -3,13 +3,15 @@ layout: post
 title: "Interacties Allen Cahn"
 date: 2024-05-14
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 <img src="/assets/images/Pasted image 20240514105657.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240514105657.png">
 Small spectrum, comes from translational eigenvalues of the individual fronts. Projecting the PDE onto an ODE somehow, apparently well supported by literature. 
 
@@ -64,3 +66,6 @@ order: $$\epsilon^1$$
 V_1(\xi)&=V_1 
 \end{aligned}\]</div>
 another Sturm-Liouville problem
+
+
+[View Raw Markdown](/assets/md/Interacties Allen Cahn.md)

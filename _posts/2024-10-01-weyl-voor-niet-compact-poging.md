@@ -3,13 +3,15 @@ layout: post
 title: "Weyl voor niet-compact poging"
 date: 2024-10-01
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 <div class="math-container">\[
 \mathcal L-\mathcal L_\infty
 \]</div>
@@ -44,3 +46,6 @@ Take weakest decay in $$\mathcal L-\mathcal L_\infty$$, call it $$\alpha$$, then
 \]</div>
 
 
+
+
+[View Raw Markdown](/assets/md/Weyl voor niet-compact poging.md)

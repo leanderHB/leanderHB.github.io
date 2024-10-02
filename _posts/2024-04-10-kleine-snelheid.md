@@ -3,13 +3,15 @@ layout: post
 title: "Kleine snelheid"
 date: 2024-04-10
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 # $$\alpha=2, \beta=1$$
 ### Outer equations
 order: $$\epsilon^0$$
@@ -28,3 +30,6 @@ Again $$V_0$$ is constant, and $$U_0$$ is given by the same Hamiltonian system a
 
 order: $$\epsilon^1$$
 <div class="math-container">\[\begin{aligned}0&=-c(U_0)_\xi  + f_{U}U_1 + f_{V}V_1 + (U_1)_{\xi \xi } \\0&=(V_1)_{\xi \xi } \end{aligned}\]</div>
+
+
+[View Raw Markdown](/assets/md/Kleine snelheid.md)

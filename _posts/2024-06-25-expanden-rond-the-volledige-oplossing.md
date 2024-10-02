@@ -3,13 +3,15 @@ layout: post
 title: "Expanden rond the volledige oplossing"
 date: 2024-06-25
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 connected to [Arjen Notes (my interpretation)]({% link _posts/2024-09-12-arjen-notes-(my-interpretation).md %})
 Take the stationary equation for $$u$$:
 <div class="math-container">\[
@@ -160,3 +162,5 @@ So:
 <div class="math-container">\[
 \int_\mathbb R f_u(u^*,v^*)u^*_{1,\xi}- f_v(u^*,v^*)u^*_{0,\xi}d\xi= \frac{1}{\epsilon^2}\int_\mathbb R f_u(u^*,v^*)u^*_{0,\xi}d\xi +O(\epsilon^2) 
 \]</div>
+
+[View Raw Markdown](/assets/md/Expanden rond the volledige oplossing.md)

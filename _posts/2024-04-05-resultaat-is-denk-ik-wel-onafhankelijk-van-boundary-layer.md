@@ -3,13 +3,15 @@ layout: post
 title: "Resultaat is denk ik wel onafhankelijk van boundary layer"
 date: 2024-04-05
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 Now we found the integral of $$r_{\xi\xi}$$, which we match to the conditions found from the fast subsystem:
 <div class="math-container">\[\begin{aligned}
 \int_{I}r_{\xi\xi}d\xi &= \epsilon^2\int_{-\epsilon^{-\nu}}^{\epsilon^{-\nu}}[\lambda  + f_u(u_0,v_0)s_{inner}+f_v(u_0,v_0)]d\xi\\
@@ -40,3 +42,5 @@ Since $$\nu\in(0,1)$$, this is always negative, so we're dealing with asympotica
 2l = -2\sqrt l
 \]</div>
 This has solution $$l=0$$, so this term is either higher order (irrelevant for leading order behaviour), or zero. 
+
+[View Raw Markdown](/assets/md/Resultaat is denk ik wel onafhankelijk van boundary layer.md)

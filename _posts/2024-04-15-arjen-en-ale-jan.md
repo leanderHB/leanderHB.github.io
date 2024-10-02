@@ -3,13 +3,15 @@ layout: post
 title: "Arjen en Ale jan"
 date: 2024-04-15
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 - heel kort hoe van PDE naar existence steady state
 - neem aan dat steady state, dan lineariseer een groeiende mode eromheen
 
@@ -132,3 +134,6 @@ After a small discussion, we agree that the interactions are weak: only the expo
 
 <img src="/assets/images/Pasted image 20240409141447.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240409141447.png">
 
+
+
+[View Raw Markdown](/assets/md/Arjen en Ale jan.md)

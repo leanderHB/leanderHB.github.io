@@ -3,13 +3,15 @@ layout: post
 title: "Hamiltonian Thesis"
 date: 2024-03-18
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 The heteroclinic orbit is an equipotential line of the hamiltonian, so $$E$$ parametrizes the orbit:
 <div class="math-container">\[
 \frac12 (u_x)^2+F(u)=E\quad\forall u\\
@@ -31,3 +33,5 @@ Consider a small translation: $$\tilde u(x)=u(x+dx)$$ The difference is given by
 <div class="math-container">\[
 \frac{\Delta u}{\Delta x} = \sqrt{2E-2F(u)}
 \]</div>
+
+[View Raw Markdown](/assets/md/Hamiltonian Thesis.md)

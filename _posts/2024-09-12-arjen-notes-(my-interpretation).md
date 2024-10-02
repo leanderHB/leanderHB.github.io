@@ -3,13 +3,15 @@ layout: post
 title: "Arjen Notes (my interpretation)"
 date: 2024-09-12
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 see [Expanden rond the volledige oplossing]({% link _posts/2024-06-25-expanden-rond-the-volledige-oplossing.md %}) for more. 
 
 ## Fast linearized system
@@ -146,3 +148,6 @@ Solvability:
 \hat K\langle u_{0,\xi}^* ,f_v^*(u_0^*,K_0^*)\rangle=\hat K\int_I f_v^*(u_0^*(\xi),K_0^*)u_{0,\xi}^*(\xi)d\xi = 0
 \]</div>
 If we assume $$f$$ to be such that the inner product is non-zero, this shows that we need $$\hat K=0$$. 
+
+
+[View Raw Markdown](/assets/md/Arjen Notes (my interpretation).md)

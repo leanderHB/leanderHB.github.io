@@ -3,13 +3,15 @@ layout: post
 title: "Singularly perturbed RDE"
 date: 2024-03-14
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 <div class="math-container">\[
 \begin{aligned}
 u_t &= \delta\Delta u + f(u,v)\\
@@ -372,3 +374,5 @@ G(\bar U+\epsilon^\alpha u,\bar V+\epsilon^\alpha v) =G(\bar U,\bar V)+ G_U(\bar
 f_u&\lambda+f_v&0&0
 \end{pmatrix}\begin{pmatrix} e\\ r\\ E\\ R\end{pmatrix}
 \]</div>
+
+[View Raw Markdown](/assets/md/Singularly perturbed RDE.md)

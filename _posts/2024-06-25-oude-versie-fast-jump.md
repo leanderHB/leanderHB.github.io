@@ -3,13 +3,15 @@ layout: post
 title: "oude versie fast jump"
 date: 2024-06-25
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 
 
 ### Enge dingen
@@ -52,3 +54,6 @@ Dan houd je die integraal over de afgeleiden keer $$f_u$$ over, geen idee wat da
 
 
 
+
+
+[View Raw Markdown](/assets/md/oude versie fast jump.md)

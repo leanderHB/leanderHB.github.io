@@ -3,13 +3,15 @@ layout: post
 title: "Verschillende keuzes voor kleine snelheid"
 date: 2024-04-11
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 Consider traveling wave coordinates $$x = \chi+\epsilon^\alpha c t$$ where $$\chi$$ is the ordinary space coordinate. Then:
 <div class="math-container">\[
 U_{t} = U_xx_t = \epsilon^\alpha c U_x
@@ -116,3 +118,6 @@ order: $$\epsilon^2$$
 <div class="math-container">\[\begin{aligned}0&=f_{U}U_1 + f_{V}V_1 + (U_1)_{\xi \xi } \\0&=-c(V_0)_\xi  - f + (V_1)_{\xi \xi } \end{aligned}\]</div>
 
 
+
+
+[View Raw Markdown](/assets/md/Verschillende keuzes voor kleine snelheid.md)

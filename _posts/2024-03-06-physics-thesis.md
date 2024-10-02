@@ -3,13 +3,15 @@ layout: post
 title: "Physics thesis"
 date: 2024-03-06
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 # Summary
 - Find second reviewer is a staff member of the VU and/or UvA Faculty of Science that is _not_ directly involved with the research project.
 
@@ -107,3 +109,6 @@ Note the list of prohibited items above is not exhaustive but demonstrates a few
 - Be aware of the limitations and potential biases of AI technologies, and seek out multiple perspectives and feedback to ensure the accuracy and validity of your work.
 
 Remember that your thesis is a reflection of your skills, knowledge, and expertise as a researcher. It is important to use AI tools in a responsible and reflective manner, taking into account their strengths and limitations. If you have any questions or concerns about the use of AI in your thesis, please do not hesitate to discuss them with your project supervisors or with your Track Coordinator.
+
+
+[View Raw Markdown](/assets/md/Physics thesis.md)

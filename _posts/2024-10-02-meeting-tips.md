@@ -3,13 +3,15 @@ layout: post
 title: "Meeting tips"
 date: 2024-10-02
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 ### arjen
 dakje eraf: kleine letter
 
@@ -23,3 +25,6 @@ kpz
 simulate radial
 
 
+
+
+[View Raw Markdown](/assets/md/Meeting tips.md)

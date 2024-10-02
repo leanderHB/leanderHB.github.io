@@ -3,13 +3,15 @@ layout: post
 title: "Oeehh ja werkt voor eerst"
 date: 2024-09-12
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 Oke hier 1 vergelijking die $$U_1^*$$ geeft als inverse van SL probleem:
 <div class="math-container">\[
 0 = (U_1^*)_{\xi\xi}+f_U(U^*_0,K^*_0)U_1^*+f_V(U^*_0,K^*_0)( K_1^*- U_0^*)
@@ -129,3 +131,5 @@ ZIe hier een aantal voorbeelden:
 Eerder koppelde jij die waarde op de rand aan \hat K, die je via een Fredholm conditie kon vinden, en als ik me goed herinner, een vaste sign had. Dat is de "heilige graag" denk ik, maar doordat we lambda order epsilon^2 hebben, is v niet meer leading order constant in de fast region, het is nu dus epsilon^2 U_0,\xi, en dus heeft de leading order term niks meer te zeggen over de waarde op de rand (want exponentially klein daar). Ik hoop u_1 niet expliciet te kunnen vinden, want ik word niet heel blij van de SL problemen hier boven, dus ik vroeg me af of jij toevallig een truc in je trucendoos hebt voor dit type probleem. Sidenote:
 
 omdat (v+epsilon^2 u)_xixi = \hat lambda u_0, kun je twee keer integreren en v+epsilon^2 u expliciet vinden in de fast region, behalve de integration constant, die precies de amplitude op de rand geeft.
+
+[View Raw Markdown](/assets/md/Oeehh ja werkt voor eerst.md)

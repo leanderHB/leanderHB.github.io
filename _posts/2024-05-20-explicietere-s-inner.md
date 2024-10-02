@@ -3,13 +3,15 @@ layout: post
 title: "Explicietere s inner"
 date: 2024-05-20
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 Hier een poging om lemma 2.5 uit Arjen's paper te gebruiken voor mijn situatie!
 ### Using Lemma 2.5
 Introduce a fast variable $$x=\epsilon\xi$$:
@@ -64,3 +66,6 @@ So:
 geintje haha, maar wel coole relatie
 
 
+
+
+[View Raw Markdown](/assets/md/Explicietere s inner.md)

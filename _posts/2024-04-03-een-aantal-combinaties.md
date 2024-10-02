@@ -3,13 +3,15 @@ layout: post
 title: "Een aantal combinaties"
 date: 2024-04-03
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 Consider traveling wave coordinates $$x = \chi+\epsilon^\alpha c t$$ where $$\chi$$ is the ordinary space coordinate. Then:
 <div class="math-container">\[
 U_{t} = U_xx_t = \epsilon^\alpha c U_x
@@ -111,3 +113,6 @@ fast subsystem ($$\alpha=1,\beta=1$$), order=2
 
 
 
+
+
+[View Raw Markdown](/assets/md/Een aantal combinaties.md)

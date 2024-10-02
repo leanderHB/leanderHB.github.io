@@ -3,13 +3,15 @@ layout: post
 title: "Meeting 2 Arjen"
 date: 2024-03-18
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 <img src="/assets/images/Pasted image 20240312143557.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240312143557.png">
 
 <img src="/assets/images/Pasted image 20240311153212.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240311153212.png">
@@ -26,3 +28,6 @@ Oh maar je kan ook $$v$$ stukkie opschuiven natuurlijk
 Dit klopt niet toch?
 <img src="/assets/images/Pasted image 20240318121007.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240318121007.png">
 
+
+
+[View Raw Markdown](/assets/md/Meeting 2 Arjen.md)

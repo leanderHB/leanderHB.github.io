@@ -3,13 +3,15 @@ layout: post
 title: "Scalar problem warm-up"
 date: 2024-09-09
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 Take the scalar problem:
 <div class="math-container">\[
 U_t = U_{xx}+f(U)
@@ -27,3 +29,5 @@ We now define $$\mathcal L=\partial_{xx}+f_U(U^*)$$. This is a Sturm-Liouville o
 U^*_{xxx}+f_U(U^*)U^*_x = (U^*_{xx}+f(U^*))_x = (0)_x =0
 \]</div>
 Hence $$U^*_x$$ is a solution with eigenvalue $$0$$. Then lastly, since $$U^*$$ is monotonic, $$U^*_x$$ has no zeros. Hence we found the solution with the largest eigenvalue, and all other solutions to the stability problem must have strictly smaller eigenvalues. 
+
+[View Raw Markdown](/assets/md/Scalar problem warm-up.md)

@@ -1,0 +1,70 @@
+Combine steady solutions to get quasistable manifold
+linearize around these to find to first order the perturbation (growth/decay). Project back onto the quasistable manifold, given by the positions of the fronts!
+
+![[Pasted image 20240326111900.png]]
+hier is $\xi=0$, dus het zou dan het inproduct zijn van de $\Phi$'s op posities $p$, wel gek dat het preciese midden dan uitmaakt!
+Oh nee geintje het is de $L^2$ norm denk ik in de functieruimte, niet alleen geevalueerd op de posities!
+
+
+## defs Keith
+We splitten oplossingen in:
+$$
+U(x,t) = \Phi(x;p(t))+W(x,t)
+$$
+Definieer:
+$$
+\mathcal M = \{\Phi(p):p\in K\}
+$$
+H0:
+$$
+\|F(\Phi(p))\|_{H^1}\leq M\delta_0
+$$
+plus andere bounds op afgeleiden etc. Dit gaat waarschijnlijk in mijn geval goed omdat de boundary layer zo dun is, dus $F$ kan maar zo groot worden. $\delta_0$ moet dan ook denk ik aan $\epsilon$ gekoppeld worden. 
+
+Definieer de famillie van operatoren:
+$$
+L_p = J\partial_x^2+\nabla f(\Phi(p))
+$$
+Dus de linearizatie rondom een geparametriseerde quasistable state. 
+
+H1: voor elke $L_p$, splitten we het spectrum in een traag spectrum rondom $0$, wat waarschijnlijk correspondeerd met verstoringen van de $0$-eigenwaarde die bij translaties hoort, en een snel spectrum, dat de dissipatie geeft, wat het op het manifold houd. Dus alleen die kleine eigenwaarden rond nul gaan uitmaken voor de interactie zometeen! De rest voldoet aan $\mathfrak R \lambda<-k$, met $k>0$. 
+$$
+\sigma(L_p)=\sigma_s\cup\sigma_0
+$$
+waar dus $\sigma_s\subset \{\lambda\in\mathbb C:\mathfrak R\lambda<-k\}$ en  $\sigma_0\subset \{\lambda\in\mathbb C:|\lambda|<\delta_0\}$. Dit doet mij vermoeden dat $\delta_0=\sqrt{\epsilon}$ zou kunnen werken? Ik moet ff kijken hoe de niet-nul snelheden transleren naar dit verhaal qua orders. 
+
+
+H2: elke linearizatie operator $L_p$ zorgt voor een semiflow $S_p$ die snel dempt, met de constante $k$ die ook het niet-trage spectrum bound: dus slow manifold is stabiel, ook nadat je steady states opsomt. 
+defineer $X_p$ als de $L_p$ invariante deelruitme van $H^1$, met codim $N$, die correspondeerd met het spectrum $\sigma_s$. Dan:
+$$
+\|S_p(t)u\|_{H^1}\leq M e^{-kt}\|u\|_{H^1}
+$$
+M kan onafhankelijk van $p$ gekozen worden!
+Compatibility: $Y_p:= (X_p)^\perp$ called the "slow space", ook $L_p$ invariant!
+
+H3: fix $p$, dan heb je eigenfuncties $\Psi_1,\dots,\Psi_N$ van de deelruimte $Y_p$ die corresponderen met het trage spectrum $\sigma_0$. Dan:
+$$
+\left\|\Psi_i(p)-\partial_{p_i} \Phi(\cdot,p) \right\|_{H^1}\leq \delta_C
+$$
+Geen idee wat die $\delta_C$ gaat moeten worden nog!
+
+### THEOREM 2.1. 
+Let a quasi-steady manifold $\mathcal{M}=\{\Phi(\mathbf{p}) \mid \mathbf{p} \in \mathcal{K}\}$ with parameters from $\mathcal{K} \subset \mathbf{R}^N$ be given which satisfies the hypotheses $(\mathrm{H} 0)-(\mathrm{H} 4)$ for some positive constants $M$ and $k$. Then for $\epsilon, \delta_0$, and $\delta_C$ small enough, in terms of $M$ and $k$, there exist a finite constant $M_0$ and times $T$, and $T^i$ all positive, such that for all initial data $U\left(x, t_0\right)=U_0(x)$ of the form (2.20), the solution $U$ of (2.4) can be decomposed as
+$$
+U=\Phi(x, \mathbf{p}(t))+W(x, t) \quad \text { for } t \in\left[t_0, t_0+T\right]
+$$
+where the remainder $W$ satisfies
+$$
+\|W(\cdot, t)\|_{H^1} \leq M_0\left(\epsilon e^{-k\left(t-t_0\right)}+\delta_0\right) .
+$$
+The parameters $\mathbf{p}(t)=\left(p_1, \ldots, p_N\right)^t$ may be chosen to lie on a smooth curve in $\mathcal{K}$, and $T$, the time for the curve to exit $\mathcal{K}$, satisfies
+$$
+T>M_0 \operatorname{dist}\left(\mathbf{p}_*, \partial \mathcal{K}\right) / \delta_0,
+$$
+where $\mathbf{p}_*$ is as given in (2.20). After an initial transient, that is, for $t \geq t_0+T^i$, the evolution of the parameters is governed to leading order by the closed system
+$$
+p_i^{\prime}=\left(\delta_0 \tilde{\xi}+F(\Phi(\mathbf{p})), \Psi_i^{\dagger}(\mathbf{p})\right)_2+O\left(\delta_0^2\right) \quad \text { for } t \geq t_0+T^i,
+$$
+for $i=1, \ldots, N$.
+
+

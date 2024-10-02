@@ -3,13 +3,15 @@ layout: post
 title: "Netjes order nu=2"
 date: 2024-09-13
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 We start with the set of equations:
 <div class="math-container">\[\begin{aligned}
 U_t &= \epsilon^2U_{xx}+f(U,V)\\
@@ -169,3 +171,5 @@ Then:
 v = A\exp\left(\epsilon\sqrt{\hat\lambda\frac{f_U^*-f_V^*}{f_U^*} }x\right)+B\exp\left(-\epsilon\sqrt{\hat\lambda\frac{f_U^*-f_V^*}{f_U^*} }x\right)
 \]</div>
 Of course, on the left, $$B=0$$, and on the right, $$A=0$$. We'd like to have continuous solutions, $$v(x=0)=v(\xi=0)$$, so agreement between the fast and slow solutions at the origin. The leading order equation for $$v$$ in the fast region is $$\epsilon^2 v_1$$, where $$v_1=-u_0=-U^*_{0,\xi}$$. But we actually know what the translational mode is, it's plus or minus the square root of two times the potential term of the Hamiltonian. WLOG, let's assume the front goes from low $$U$$ to high $$U$$ as $$x$$ increases. Then $$U_{0,\xi}^*$$ is larger than $$0$$ for all 
+
+[View Raw Markdown](/assets/md/Netjes order nu=2.md)

@@ -3,13 +3,15 @@ layout: post
 title: "Interacties zoals Robbin Bastiaansen, Arjen Doelman"
 date: 2024-04-15
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 We introduce locations $$P_j(t)$$, where $$j=1,\dots,N$$, which introduces $$N$$ inner (boundary) layers with $$N+1$$ outer layers. Denote:
 <div class="math-container">\[
 \begin{aligned}
@@ -224,3 +226,6 @@ Or written as integral:
 <div class="math-container">\[
 c_j(t)\int_{I_f} ((u_0)_{\xi_j})^2 d\xi=\int_{I_f} v_1 f_v(u_0,v_0) \,(u_0)_{\xi_j}  d\xi
 \]</div>
+
+
+[View Raw Markdown](/assets/md/Interacties zoals Robbin Bastiaansen, Arjen Doelman.md)

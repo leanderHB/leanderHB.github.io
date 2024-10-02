@@ -3,13 +3,15 @@ layout: post
 title: "Integraal expliciet"
 date: 2024-05-23
 ---
+
 <style>
 .math-container {
-    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent the text from wrapping */
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 </style>
+
 
 Some algebra shows that $$\epsilon^2\int_{-1/\sqrt\epsilon}^{1/\sqrt\epsilon}\lambda d\xi=2\epsilon^{3/2}\lambda$$ cannot match the order of the slow timescale so we put those away in the higher order terms.
 <div class="math-container">\[
@@ -117,3 +119,6 @@ A^{R/L} = A^{R/L}(0)\mp \frac{1}{W(\lambda)}\int_0^x G_U w^{L/R} dy
 \]</div>
 Basically a bit uglier version of Arjen's 
 
+
+
+[View Raw Markdown](/assets/md/Integraal expliciet.md)
