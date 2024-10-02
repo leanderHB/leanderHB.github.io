@@ -3,6 +3,13 @@ layout: post
 title: "Thesis todo"
 date: 2024-03-26
 ---
+<style>
+.math-container {
+    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent the text from wrapping */
+}
+</style>
 ## Eerste deel: stability of single front solution
 - Prove rigorous that solutions exist: Hamiltonian, twee punten op zelfde potential, en ertussen strict lagere potential? Wat gebeurd er de andere kant op (altijd unbounded? of zijn het pulse oplossingen bovenop de plateaus?).
 - Prove linear stability

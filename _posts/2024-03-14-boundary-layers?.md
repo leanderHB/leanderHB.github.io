@@ -3,9 +3,16 @@ layout: post
 title: "Boundary layers?"
 date: 2024-03-14
 ---
+<style>
+.math-container {
+    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent the text from wrapping */
+}
+</style>
 Oh we should use $$[-\sqrt\epsilon,\sqrt\epsilon]$$? Since is $$\epsilon<<1$$, then definitely $$[-\epsilon,\epsilon]\subseteq [-\sqrt\epsilon,\sqrt\epsilon]$$.  
 Boundary layer is something like $$[-\epsilon,\epsilon]$$, using Brauns to note that the interface width scales as $$\sqrt{D_u/D_v}$$.  Outer layer left:
-<div>\[
+<div class="math-container">\[
 \begin{aligned}
 \lambda \begin{pmatrix}
 r\\ e
@@ -20,21 +27,21 @@ We know that to leading order: $$g_v= c_v\exp(k_lx)$$ and $$g_u= c_u\exp(k_lx)$$
 
 -- ergens hier moet ik de fast timescale erin moffelen!!!!
 
-<div>\[
+<div class="math-container">\[
 r_{xx} =\lambda r-\frac{\lambda c_v\exp(k_lx)}{\lambda+c_u\exp(k_lx)}r
 \]</div>
 not what we like, so we expand of course, and get around the boundary layer:
-<div>\[
+<div class="math-container">\[
 r_{xx} = (\lambda -\frac{\lambda c_v}{\lambda +c_u})r
 \]</div>
 This preterm is larger than zero, so we get exponentials as solution:
-<div>\[
+<div class="math-container">\[
 r = \exp\left(\pm\sqrt{\lambda-\frac{\lambda c_v}{\lambda+c_u}}x\right)
 \]</div>
 Here we obviously need to pay attention to which side we are on for the sign. 
 Note we can explicitly find the constants as function of the steady solutions tails.
 Then we can find $$r_x$$ at the boundary layer:
-<div>\[
+<div class="math-container">\[
 r_x(\epsilon) = \pm\sqrt{\lambda-\frac{\lambda c_v}{\lambda+c_u}}\exp\left(\pm\sqrt{\lambda-\frac{\lambda c_v}{\lambda+c_u}}\epsilon\right) = \pm\sqrt{\lambda-\frac{\lambda c_v}{\lambda+c_u}}+O(\epsilon)
 \]</div>
 
@@ -42,24 +49,24 @@ Which implies that when we consider the interval $$[-\epsilon,\epsilon]$$ as the
 
 Integrating the fast system over the entire real line allows us to match the derivatives, which yields:
 
-<div>\[
+<div class="math-container">\[
 \lambda e = e_{yy}- g_ue-g_vb
 \]</div>
 
 
 
 Stel je hebt:
-<div>\[\begin{aligned}
+<div class="math-container">\[\begin{aligned}
 \vec x_1 = \begin{pmatrix}1\\1 \end{pmatrix}\\
 \vec x_2 = \begin{pmatrix}0\\1 \end{pmatrix}\\
 \vec x_3 = \begin{pmatrix}1\\2 \end{pmatrix}
 \end{aligned}\]</div>
 en $$\alpha^*_1=\alpha^*_2=\alpha^*_3=1$$ en $$\alpha_1=\alpha_2=\alpha_3=0$$ ofzo. Dan heb je:
-<div>\[
+<div class="math-container">\[
 \vec w = (\alpha^*_1-\alpha_1) \vec x_1+(\alpha^*_2-\alpha_2) \vec x_2+(\alpha^*_3-\alpha_3) \vec x_3
 \]</div>
 als je invult:
-<div>\[
+<div class="math-container">\[
 \begin{aligned}
 \vec w = (1-0)\begin{pmatrix}1\\1 \end{pmatrix}+ (1-0)\begin{pmatrix}0\\1 \end{pmatrix}+ (1-0)\begin{pmatrix}1\\2 \end{pmatrix} \\
 = \begin{pmatrix}1\\1 \end{pmatrix}+ \begin{pmatrix}0\\1 \end{pmatrix}+ \begin{pmatrix}1\\2 \end{pmatrix} =\begin{pmatrix}2\\4 \end{pmatrix}

@@ -26,6 +26,7 @@ pagination:
   <div class="header-bar">
     <h1>{{ site.thesis_name }}</h1>
     <h2>{{ site.thesis_description }}</h2>
+    
   </div>
   {% endif %}
 
@@ -100,6 +101,9 @@ pagination:
     <hr>
 
 {% endif %}
+<h1>The big chaos</h1>
+<p>Here are all the different versions and tries of things I've done for the thesis. Not all of it is good, most of it isn't, in fact. However, I think it's nice to have an overview of all that's happened so far.  </p>
+
 
   <ul class="post-list">
 

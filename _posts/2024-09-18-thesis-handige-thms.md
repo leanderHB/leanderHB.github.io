@@ -3,6 +3,13 @@ layout: post
 title: "Thesis handige thms"
 date: 2024-09-18
 ---
+<style>
+.math-container {
+    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent the text from wrapping */
+}
+</style>
 
 # thms
 ![Image](/assets/images/Pasted image 20240215153011.png)
@@ -32,7 +39,7 @@ lol al het werk eerder in 1 slide
 
 Boundary layer thickness:
 ![Image](/assets/images/Pasted image 20240227160002.png)Dus dat geeft een estimate op hoe dik we die willen hebben. 
-<div>\[
+<div class="math-container">\[
 d \sim \sqrt\delta
 \]</div>
 

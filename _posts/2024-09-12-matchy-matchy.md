@@ -3,39 +3,46 @@ layout: post
 title: "Matchy matchy"
 date: 2024-09-12
 ---
-<div>\[\begin{aligned}
+<style>
+.math-container {
+    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent the text from wrapping */
+}
+</style>
+<div class="math-container">\[\begin{aligned}
 (v_l+\epsilon^2u_l)&=C\exp(a\xi)\\
 (v_b+\epsilon^2u_b)&=C\exp(-b\xi)
 \end{aligned}\]</div>
 derivatives:
-<div>\[
+<div class="math-container">\[
 \begin{aligned}
 (v_l+\epsilon^2u_l)_\xi&=aC\exp(a\xi)\\
 (v_b+\epsilon^2u_b)_\xi&=-bC\exp(-b\xi)
 \end{aligned}
 \]</div>
 inner:
-<div>\[
+<div class="math-container">\[
 \Delta (v_i+\epsilon^2u_i)_\xi  = \hat\lambda \int U_{0,\xi}^*
 \]</div>
 match to ders
 and then $$C$$:
-<div>\[
+<div class="math-container">\[
 \Delta (v_i+\epsilon^2u_i)_\xi  = \hat\lambda \int U_{0,\xi}^*
 \]</div>
 
-<div>\[
+<div class="math-container">\[
 v_i+\epsilon^2u_i = \int_A^x\int_B^x U_{0,\xi}^* =\int\int U_{0,\xi}^*+A'+B'\xi
 \]</div>
 kan $$C$$ niet gewoon op $$1$$ door tijd te schalen? heb ik dat zelfs niet al gedaan ergens? maybe niet hoor. 
 
 uiteindelijk:
-<div>\[
+<div class="math-container">\[
 -C(a+b)  = \hat\lambda \int U_{0,\xi}^*
 \]</div>
 
 Ideally, we'd find: 
-<div>\[\begin{aligned}
+<div class="math-container">\[\begin{aligned}
 -Ca = \hat\lambda \int^0_{-\epsilon^\sigma} U_{0,\xi}^*\\
 -Cb = \hat\lambda \int_0^{\epsilon^\sigma} U_{0,\xi}^*
 \end{aligned}\]</div>

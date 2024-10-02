@@ -3,6 +3,13 @@ layout: post
 title: "Physics thesis"
 date: 2024-03-06
 ---
+<style>
+.math-container {
+    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent the text from wrapping */
+}
+</style>
 # Summary
 - Find second reviewer is a staff member of the VU and/or UvA Faculty of Science that is _not_ directly involved with the research project.
 

@@ -17,3 +17,5 @@ social: true # includes social icons at the bottom of the page
 ---
 
 Currently working on my master thesis, which is the reason for this site. I've uploaded my Obsidian notes here, for documentation purposes. 
+
+Also, I'll add some of the other projects I've been working on. 

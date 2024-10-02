@@ -3,43 +3,50 @@ layout: post
 title: "Proberen operator als perturbed"
 date: 2024-10-01
 ---
-<div>\[
+<style>
+.math-container {
+    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent the text from wrapping */
+}
+</style>
+<div class="math-container">\[
 \mathcal L = \mathcal L_0+\epsilon \mathcal L_1+\dots
 \]</div>
-<div>\[
+<div class="math-container">\[
 	\lambda\begin{pmatrix}u\\v\end{pmatrix} = \begin{pmatrix}\partial_{\xi\xi}+f^*_U&f_V^* \\ -\epsilon^2 f^*_U&\partial_{\xi\xi}-\epsilon^2 f_V^* \end{pmatrix} \begin{pmatrix}u\\v\end{pmatrix}
 \]</div>
 expanding:
-<div>\[
+<div class="math-container">\[
 (\lambda_0+\epsilon^2\lambda_1+\dots)\begin{pmatrix}u_0+\epsilon^2 u_1+\dots\\ v_0+\epsilon^2 v_1+\epsilon^4 v_2+\dots\end{pmatrix} = \begin{pmatrix}\partial_{\xi\xi}+f^*_U&f_V^* \\ \epsilon^2 f^*_U&\partial_{\xi\xi}-\epsilon^2 f_V^* \end{pmatrix} \begin{pmatrix}u_0+\epsilon^2 u_1+\dots\\ v_0+\epsilon^2 v_1+\epsilon^4 v_2+\dots\end{pmatrix}
 \]</div>
 
 collecting powers
 
-<div>\[
+<div class="math-container">\[
 \lambda\begin{pmatrix}u\\v\end{pmatrix} = \begin{pmatrix}\partial_{\xi\xi}+f^*_U&f_V^* \\ 0&\partial_{\xi\xi} \end{pmatrix} \begin{pmatrix}u\\v\end{pmatrix}
 \]</div>
 
 
-<div>\[
+<div class="math-container">\[
 \lambda\begin{pmatrix}v+\epsilon^2 u\\v\end{pmatrix} = \begin{pmatrix}\partial_{\xi\xi}+f^*_U&f_V^* \\ -\epsilon^2 f^*_U&\partial_{\xi\xi}-\epsilon^2 f_V^* \end{pmatrix} \begin{pmatrix}u\\v\end{pmatrix}
 \]</div>
 dus:
 
-<div>\[
+<div class="math-container">\[
 \mathcal L = \begin{pmatrix}\partial_{\xi\xi}+f^*_U&f_V^* \\ -\epsilon^2 f^*_U&\partial_{\xi\xi}-\epsilon^2 f_V^* \end{pmatrix} 
 \]</div>
 
-<div>\[
+<div class="math-container">\[
 v+\epsilon^2 u = \epsilon^2\partial_{\xi\xi} u+\partial_{\xi\xi}v+0
 \]</div>
 
 # expansion
-<div>\[
+<div class="math-container">\[
 \lambda_0\begin{pmatrix}u_0\\ u_0+v_1\end{pmatrix} = \begin{pmatrix}\partial_{\xi\xi}+f^*_U&0 \\ 0&\partial_{\xi\xi} \end{pmatrix} \begin{pmatrix}u_0\\u_0+ v_1\end{pmatrix}
 \]</div>
 
-<div>\[
+<div class="math-container">\[
 		\hat\lambda \begin{pmatrix}u_1\\ u_1+v_2\end{pmatrix} = \begin{pmatrix}\partial_{\xi\xi}+f^*_U-f_V^*&f_V^* \\ 0&\partial_{\xi\xi} \end{pmatrix} \begin{pmatrix}u_1\\u_1+ v_2\end{pmatrix}
 \]</div>
 

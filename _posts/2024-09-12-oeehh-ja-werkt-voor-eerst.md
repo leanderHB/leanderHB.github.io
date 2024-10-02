@@ -3,16 +3,23 @@ layout: post
 title: "Oeehh ja werkt voor eerst"
 date: 2024-09-12
 ---
+<style>
+.math-container {
+    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent the text from wrapping */
+}
+</style>
 Oke hier 1 vergelijking die $$U_1^*$$ geeft als inverse van SL probleem:
-<div>\[
+<div class="math-container">\[
 0 = (U_1^*)_{\xi\xi}+f_U(U^*_0,K^*_0)U_1^*+f_V(U^*_0,K^*_0)( K_1^*- U_0^*)
 \]</div>
 Hier een die het meest "promising" is, probleem is wel dat ik $$U_1^*$$ niet expliciet heb.
-<div>\[
+<div class="math-container">\[
 \hat\lambda u_0 = u_{1,\xi\xi}+f_U^* u_1+[ f_{UU}^* U_1^*+f_{UV}^* (K_1^*-U_0^*)]u_0-u_0f_V^*
 \]</div>
 Misschien vinden we de hoge afgeleiden niet leuk, dan kun je het volgende doen:
-<div>\[
+<div class="math-container">\[
 \hat\lambda u_0 = u_{1,\xi\xi}+f_U^* u_1-[U_{1,\xi\xi\xi}^*+f_U^*U_{1,\xi}^*]
 \]</div>
 
@@ -24,66 +31,66 @@ $$C<0,\int U_{0,\xi}>0$$, dan $$\Delta_{slow}>0$$, dus $$\lambda>0$$.  maar dat 
 
 
 In essentie heb ik:
-<div>\[\begin{aligned}
+<div class="math-container">\[\begin{aligned}
 v_0&=0\\
 (v_1+ u_0)_{\xi\xi}&=0\\
 (v_2+ u_1)_{\xi\xi} &= \hat\lambda u_0
 \end{aligned}\]</div>
 dus:
-<div>\[\begin{aligned}
+<div class="math-container">\[\begin{aligned}
 \Delta_{fast}(v+ \epsilon^2 u)_{\xi}&=\int (v+\epsilon^2 u)_{\xi\xi} d\xi\\
 &=\int (v_0+\epsilon^2v_1+\epsilon^4v_2+\epsilon^2 u_0+\epsilon^4 u_1)_{\xi\xi} d\xi \\
 &=\int(\epsilon^4v_2+\epsilon^4 u_1)_{\xi\xi} d\xi 
 \\&=\epsilon^4 \hat\lambda \int  u_0 d\xi
 \end{aligned}\]</div>
 
-<div>\[\begin{aligned}
+<div class="math-container">\[\begin{aligned}
 (v_1+ u_0)_{\xi\xi}&=0\\
 (v_1+ u_0)&=C
 \end{aligned}\]</div>
 # Bad take I think
 use this eqn:
-<div>\[
+<div class="math-container">\[
 \hat\lambda u_0 = u_{1,\xi\xi}+f_U^* u_1+[ f_{UU}^* U_1^*+f_{UV}^* (K_1^*-U_0^*)]u_0+ v_1f_V^*
 \]</div>
 filling $$v_1$$ in we find:
-<div>\[
+<div class="math-container">\[
 \hat\lambda u_0 = u_{1,\xi\xi}+f_U^* u_1+[ f_{UU}^* U_1^*+f_{UV}^* (K_1^*-U_0^*)-f_V^*]u_0+ Cf_V^*
 \]</div>
 Integrability shows:
-<div>\[
+<div class="math-container">\[
 \langle  u_0[\hat \lambda- f_{UU}^* U_1^*-f_{UV}^* (K_1^*-U_0^*)+f_V^*],u_0 \rangle = C\int u_0f_V^*
 \]</div>
 where:
-<div>\[
+<div class="math-container">\[
 K_1^*  = \frac{\int U^*_0 U^*_{0,\xi} f_V^*}{\int U^*_{0,\xi} f_V^*}
 \]</div>
 # maybe better?
-<div>\[
+<div class="math-container">\[
 \hat\lambda u_0 = u_{1,\xi\xi}+f_U^* u_1-[U_{1,\xi\xi\xi}^*+f_U^*U_{1,\xi}^*]+Cf_V^*
 \]</div>
 integrability:
-<div>\[
+<div class="math-container">\[
 \langle u_0,\hat\lambda u_0+ [U_{1,\xi\xi\xi}^*+f_U^*U_{1,\xi}^*]\rangle = C\int f_V^*u_0 d\xi
 \]</div>
 writing out int:
-<div>\[
+<div class="math-container">\[
 \int [\hat\lambda u_0u_0+ u_0U_{1,\xi\xi\xi}^*+f_U^*U_{1,\xi}^*u_0] = C\int f_V^*u_0 d\xi
 \]</div>
 partially integrating the middle term twice (boundary is zero? ?)
-<div>\[
+<div class="math-container">\[
 \int [\hat\lambda u_0^2+ u_{0,\xi\xi}U_{1,\xi}^*+f_U^*U_{1,\xi}^*u_0] = C\int f_V^*u_0 d\xi
 \]</div>
 using eqn for $$u_{0,\xi\xi}$$, namely $$0= (u_0)_{\xi\xi}+f_U^*u_0+f_V^*v_0$$, we get:
-<div>\[
+<div class="math-container">\[
 \int [\hat\lambda u_0^2+ (-f_U^* u_0)U_{1,\xi}^*+f_U^*U_{1,\xi}^*u_0] = C\int f_V^*u_0 d\xi
 \]</div>
 The terms neatly cancel, leaving:
-<div>\[
+<div class="math-container">\[
 \int [\hat\lambda u_0^2] = C\int f_V^*u_0 d\xi
 \]</div>
 So we find $$C$$ to be:
-<div>\[
+<div class="math-container">\[
 C=\hat\lambda\frac{\int  u_0^2}{\int f_V^*u_0 d\xi} 
 \]</div>
 Which is exactly the same again as $$\nu<2$$, but needs a whole lot of extra steps haha
@@ -92,11 +99,11 @@ Which is exactly the same again as $$\nu<2$$, but needs a whole lot of extra ste
 #### Staartjes
 
 we krijgen iets als:
-<div>\[
+<div class="math-container">\[
 \epsilon^2\hat\lambda\frac{\int  u_0^2d\xi}{\int f_V^*u_0 d\xi} \cdot \epsilon^2 \sqrt{\hat\lambda\frac{f_U^*-f_V^*}{f_U^*} }=\epsilon^4\hat \lambda \int u_0 d\xi
 \]</div>
 simplifying:
-<div>\[
+<div class="math-container">\[
 \frac{\int  u_0^2d\xi}{\int f_V^*u_0 d\xi} \cdot  \sqrt{\hat\lambda\frac{f_U^*-f_V^*}{f_U^*} }=  \int u_0 d\xi
 \]</div>
 This solution with positive $$\lambda$$ can therefore only exist if the $$f_V$$ integral has a certain sign. Wonder if we can say more about this? 
@@ -104,7 +111,7 @@ This solution with positive $$\lambda$$ can therefore only exist if the $$f_V$$ 
 
 
 ho dit klopt niet helemaal haha:
-<div>\[
+<div class="math-container">\[
 v = A\exp\left(\epsilon\sqrt{\hat\lambda\frac{f_U^*-f_V^*}{f_U^*} }x\right)+B\exp\left(-\epsilon\sqrt{\hat\lambda\frac{f_U^*-f_V^*}{f_U^*} }x\right)
 \]</div>
 

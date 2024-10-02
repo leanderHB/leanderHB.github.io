@@ -3,12 +3,19 @@ layout: post
 title: "Research proposal"
 date: 2024-04-11
 ---
+<style>
+.math-container {
+    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent the text from wrapping */
+}
+</style>
 Title: Stability and Interaction of Patterns formed in Conserved Reaction Diffusion Equations.
 Leander Post - 14060957
 
 ## Topic
 In a class of ecological models, it makes sense to study reaction diffusion systems that conserve some quantity, the total mass. These systems are nice to study, since their conservation makes analysis easier/doable at all. This leads us to study the simplest of these systems, equation with two components:
-<div>\[\begin{aligned}
+<div class="math-container">\[\begin{aligned}
 U_t &= \epsilon^2\Delta U + f(U,V)\\
 V_t &= \Delta V - f(U,V)\\
 \end{aligned}\]</div>

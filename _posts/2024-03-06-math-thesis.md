@@ -3,6 +3,13 @@ layout: post
 title: "Math thesis"
 date: 2024-03-06
 ---
+<style>
+.math-container {
+    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent the text from wrapping */
+}
+</style>
 # Summary
 - Your supervisor must be a so-called examiner for the Master Project Mathematics, which is a person appointed as such by the Examinations Board. 
 - find a suitable independent second reviewer who:

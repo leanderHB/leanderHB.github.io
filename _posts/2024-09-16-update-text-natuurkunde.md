@@ -3,6 +3,13 @@ layout: post
 title: "Update text natuurkunde"
 date: 2024-09-16
 ---
+<style>
+.math-container {
+    max-width: 100%; /* Set a maximum width to prevent it from expanding the page */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent the text from wrapping */
+}
+</style>
 Hi! I've got an update, I've been working on the stability part of my thesis for a couple of months now, and feel I've found a solution to it. It's rather technical, but a short summary: 
 I formalize an eigenvalue problem by linearizing around a steady state solution (front), the eigenvalues being the decay/growth rate (positive: growing, negative: decaying). The eigenfunctions are the perturbations that will either grow/decay based on the eigenvalue. 
 Solving for the eigenvalues is a bit tricky. Solving exactly is infeasible, so I find approximate solutions, and some functional analysis theory then tells me that under certain conditions, these approximate solutions are close enough to guarantee stability (hence "physical solutions", things you see in nature, that don't decay by themselves). This has a cool basis both in geometry (stable/unstable manifolds) and functional analysis (the eigenvalue problem with Sturm-Liouville type operators). 
