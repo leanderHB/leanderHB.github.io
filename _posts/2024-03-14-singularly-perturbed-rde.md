@@ -335,13 +335,13 @@ multiplying by $$\delta$$ gives the same eigenvalues:
 
 
 
-![Image](/assets/images/Pasted image 20240215174124.png)
+<img src="/assets/images/Pasted image 20240215174124.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240215174124.png">
 
 
 <div class="math-container">\[
 v_{in}(\xi)=(L_0-\lambda)^{-1}H_u(\xi)
 \]</div>
-![Image](/assets/images/Pasted image 20240216130223.png)
+<img src="/assets/images/Pasted image 20240216130223.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240216130223.png">
 
 
 <div class="math-container">\[

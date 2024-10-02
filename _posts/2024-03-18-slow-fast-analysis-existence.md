@@ -169,9 +169,9 @@ But we know what the jump should be! it should be of order $$\epsilon$$, so eith
 
 
 Almost same as:
-![Image](/assets/images/Pasted image 20240318152519.png)
-![Image](/assets/images/Pasted image 20240318152307.png)
-![Image](/assets/images/Pasted image 20240318152347.png)
+<img src="/assets/images/Pasted image 20240318152519.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240318152519.png">
+<img src="/assets/images/Pasted image 20240318152307.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240318152307.png">
+<img src="/assets/images/Pasted image 20240318152347.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240318152347.png">
 
-![Image](/assets/images/Pasted image 20240318152434.png)
-![Image](/assets/images/Pasted image 20240318152403.png)
+<img src="/assets/images/Pasted image 20240318152434.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240318152434.png">
+<img src="/assets/images/Pasted image 20240318152403.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240318152403.png">

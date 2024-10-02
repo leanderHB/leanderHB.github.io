@@ -20,7 +20,7 @@ date: 2024-03-06
 
 - The final version of the thesis must be uploaded into datanose at least 10 working days before the end of the academic year. This is the version that will be assessed by 
 ### Rubric
-![Image](/assets/images/Pasted image 20240306172422.png)
+<img src="/assets/images/Pasted image 20240306172422.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240306172422.png">
 - The final grade is rounded to an integer or half-integer, with the exception of a 5.5.
 - For the assessment of the Research Project the judgement of a reviewer is included, who pays particular attention to the structure and quality of the report and the presentation. The daily supervisor may attend the assessment and may provide input to the examiner for the evaluation.
 

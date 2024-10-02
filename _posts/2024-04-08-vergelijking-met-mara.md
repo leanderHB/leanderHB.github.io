@@ -11,7 +11,7 @@ date: 2024-04-08
 }
 </style>
 Ik ben het eens met mara tot het volgende stuk:
-![Image](/assets/images/Pasted image 20240318121007.png)
+<img src="/assets/images/Pasted image 20240318121007.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240318121007.png">
 De limieten van de afgeleiden $$\xi\to\pm\infty$$ zijn volgens mij niet nul, maar gewoon de afgeleiden op $$(u_-,v_-)$$ en $$(u_+,v_+)$$. Deze aanname zorgt ervoor dat de uitdrukking voor het exponent niet klopt volgens mij. 
 
 Hieronder wat ik heb gedaan, ik heb geen change of variables gedaan (Mara wel), ik vond dat alleen maar verwarrend, en ik had al zat variabelen. Ik heb wel de notatie $$r,s$$ hetzelfde gehouden om het vergelijkbaarder te houden.
@@ -55,7 +55,7 @@ u_x = \pm \sqrt{2E-2 F(u)}
 This requires $$F(u)\leq E\quad\forall u$$ and $$F(u)<E$$ outside the limit points, which makes sense, to roll down the potential and come to a stop on the other side of the potential, we can't go over bigger hills than the one we started on. 
 Consider a small translation: $$\tilde u(x)=u(x+dx)$$. The difference is given by $$u(x)-\tilde u(x)$$. Then of course for a small translation $$dx$$, the difference is to first order given by $$u_xdx$$. This is then the translational mode that has $$\lambda=0$$, and has no zeros, since $$u_x = \pm \sqrt{2E-2 F(u)}$$. 
 With a bit of numerics, we can find $$\eta_0$$ and integrate the ODE starting barely outside one of the saddles (for the system that Braun chooses):
-![[hetero.png]]
+<img src="/assets/images/hetero.png" class="img-fluid rounded z-depth-1" alt="hetero.png">
 # Slow and fast systems
 We analyze the system on two separate scales, we define a boundary layer in the variable $$x$$: $$x\in I_f=[-\sqrt\epsilon,\sqrt\epsilon]$$, since the width of the front is on the order $$\epsilon$$, we can neglect the front in the slow regime, which corresponds to the plateaus. The next section treats this in more detail.
 ## Slow
@@ -190,10 +190,10 @@ Which turns into:
 \]</div>
 So we have a lower bound on $$\lambda$$ for real $$\lambda$$. But they don't have to be? Don't think they have to actually, we can have oscillating solutions, I should check this!
 # vergelijking met Mara
-![Image](/assets/images/Pasted image 20240318121007.png)
+<img src="/assets/images/Pasted image 20240318121007.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240318121007.png">
 Als ik ook aanneem dat $$f_{v},f_u\to 0$$ richting de rand van de boundary layer, krijg ik hetzelfde als Mara. Maar dat is een beetje een gekke aanname, want dat is je non-degeneracy. Het is niet dat het onmogelijk is om dan heterocliene orbits te krijgen, maar volgens mij is dit niet helemaal de bedoeling. 
 Zij komt dan uiteindelijk met:
-![Image](/assets/images/Pasted image 20240319120403.png)
+<img src="/assets/images/Pasted image 20240319120403.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240319120403.png">
 Zoals je ziet, als ik $$f_{v,right}$$ en $$f_{v,left}$$ op nul zet, komt mijn minder elegante:
 <div class="math-container">\[\Delta_{slow}r_\xi=-\epsilon \sqrt{\lambda +\frac{\lambda f_{v,right}}{\lambda-f_{u,right}}}-\epsilon \sqrt{\lambda +\frac{\lambda f_{v,left}}{\lambda-f_{u,left}}}\]</div>
 uit zoals zei het heeft, maar ik zie niet in waarom dat een oke aanname is, en het is in ieder geval niet iets wat ze noemt. 
@@ -265,14 +265,14 @@ O\left(\int_{-1/\sqrt\epsilon}^{1/\sqrt\epsilon}f_v(\xi)d\xi\right) &= \frac{2}{
 Here I assume $$f_v$$ to be order $$1$$ across the system. To match the right side then, we require $$\lambda=O(\epsilon)$$ exactly.  
 # Vergelijking met Mara
 Mara integreert hier $$r_{\xi\xi}$$, maar stopt vervolgens (volgens mij in ieder geval) de slow reduced $$r$$ erin, maar veranderd dan $$x$$ naar $$\xi$$. 
-![Image](/assets/images/Pasted image 20240318213751.png)
+<img src="/assets/images/Pasted image 20240318213751.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240318213751.png">
 Haar $$r_{\xi\xi}$$ is namelijk $$0$$ hier.
-![Image](/assets/images/Pasted image 20240318213837.png)
+<img src="/assets/images/Pasted image 20240318213837.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240318213837.png">
 Maar deze vergelijking voor het langzame systeem lijkt verdacht veel op wat ze in de integraal gebruikt:
-![Image](/assets/images/Pasted image 20240318213733.png)
+<img src="/assets/images/Pasted image 20240318213733.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240318213733.png">
 
 Verder is dit ook gek:
-![Image](/assets/images/Pasted image 20240318221252.png)
+<img src="/assets/images/Pasted image 20240318221252.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240318221252.png">
 De integraal over $$r$$ word hier $$O(\sqrt\epsilon)$$, terwijl we de snelle variabele integreren, dus juist een $$O(1/\sqrt{\epsilon})$$ zouden moeten krijgen. 
 
 Het verhaal met de sign van de integraal over $$S_{in}$$ heb ik verder niet helemaal bestudeerd, omdat ik eerder niet snapte hoe ze daar op kwam, en nu denk dat het waarschijnlijk voortbouwt op verkeerde resultaten. 

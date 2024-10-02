@@ -43,22 +43,22 @@ Where $$I$$ is now the order $$1$$ coefficient from the integral, and $$S$$ the 
 \]</div>
 Furthermore, the stability is now determined by the sign of $$I$$. If $$I$$ is negative, we can expect unstable solutions, so $$\lambda>0$$, since $$S$$ is the square root of some numbers, so for real solutions, $$S$$ is positive itself. 
 
-![Image](/assets/images/Pasted image 20240521194827.png)
+<img src="/assets/images/Pasted image 20240521194827.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240521194827.png">
 
 
 
 
-![Image](/assets/images/Pasted image 20240521171808.png)
+<img src="/assets/images/Pasted image 20240521171808.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240521171808.png">
 kunnen we beredeneren dat $$w(\xi)\to0$$? 
 Hoe toepasbaar met geen even $$w$$? 
 
 
 insert 
-![Image](/assets/images/Pasted image 20240522144257.png)
+<img src="/assets/images/Pasted image 20240522144257.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240522144257.png">
 into
-![Image](/assets/images/Pasted image 20240522144241.png)
+<img src="/assets/images/Pasted image 20240522144241.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240522144241.png">
 where:
-![Image](/assets/images/Pasted image 20240522144447.png)
+<img src="/assets/images/Pasted image 20240522144447.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240522144447.png">
 In my words:
 <div class="math-container">\[
 v =A w^R+Bw^L

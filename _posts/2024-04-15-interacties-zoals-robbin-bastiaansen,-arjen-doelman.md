@@ -214,7 +214,7 @@ fg\Big|_a^b = \int_a^b f'g+\int_a^b fg'
 \]</div>
 The only thing we haven't fixed is $$v_1$$, the rest all to leading order constant. 
 
-![Image](/assets/images/Pasted image 20240320110210.png)
+<img src="/assets/images/Pasted image 20240320110210.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240320110210.png">
 ## Perpendicular to $$v_0$$
 This means that for the equation to have a solution, the inhomogeneous part should at least be perpendicular to $$(u_0)_\xi$$:
 <div class="math-container">\[

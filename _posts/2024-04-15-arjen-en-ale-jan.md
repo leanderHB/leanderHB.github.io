@@ -83,7 +83,7 @@ With $$\mathcal L = \partial_{\xi\xi}+f_U(\bar U,\bar V)$$. Since $$\mathcal L$$
 
 
 We split space into two outer layers and one boundary layer: $$I_f=[-\sqrt{\epsilon},\sqrt{\epsilon}]$$, fast variable $$\xi = x/\epsilon$$, then in the fast coordinate, the boundary layer is $$[-1/\sqrt\epsilon,1/\sqrt\epsilon]$$, so in the limit of $$\epsilon\to0$$, this becomes the whole line. 
-![Image](/assets/images/Pasted image 20240401171104.png)
+<img src="/assets/images/Pasted image 20240401171104.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240401171104.png">
 
 
 
@@ -130,5 +130,5 @@ After a small discussion, we agree that the interactions are weak: only the expo
 
 
 
-![Image](/assets/images/Pasted image 20240409141447.png)
+<img src="/assets/images/Pasted image 20240409141447.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240409141447.png">
 

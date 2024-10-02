@@ -10,13 +10,13 @@ date: 2024-05-14
     white-space: nowrap; /* Prevent the text from wrapping */
 }
 </style>
-![Image](/assets/images/Pasted image 20240514105657.png)
+<img src="/assets/images/Pasted image 20240514105657.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240514105657.png">
 Small spectrum, comes from translational eigenvalues of the individual fronts. Projecting the PDE onto an ODE somehow, apparently well supported by literature. 
 
 
 
 1.2:
-![Image](/assets/images/Pasted image 20240514163316.png)
+<img src="/assets/images/Pasted image 20240514163316.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240514163316.png">
 
 
 

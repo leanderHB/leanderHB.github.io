@@ -289,10 +289,10 @@ We have that the limiting behaviour for large $$\lambda$$ is $$W(\lambda)\sim -2
 
 # Vragen
 moet $$\nu$$ hetzelfde zijn aan beide kanten? Voelt veel meer restrictive dan nodig.
-![Image](/assets/images/Pasted image 20240523124733.png)
+<img src="/assets/images/Pasted image 20240523124733.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240523124733.png">
 Wat is poincare expansion theorem? 
-![[image001.png]]
-![[image002.png]]
+<img src="/assets/images/image001.png" class="img-fluid rounded z-depth-1" alt="image001.png">
+<img src="/assets/images/image002.png" class="img-fluid rounded z-depth-1" alt="image002.png">
 
 
 hoe krijg je de $$(-1)^i$$ voor $$w^L$$? 
