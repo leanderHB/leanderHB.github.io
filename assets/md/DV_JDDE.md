@@ -1,0 +1,169 @@
+Lemma 3.2 Let $H: \mathbb{R}_{\geq 0} \rightarrow \mathbb{R}$ be such that the differential equation $w_{x x}=\rho w-$ $H(w), \rho>0$ has a solution $w_h$ which is homoclinic to $\left(w, w_x\right)=(0,0)$, and write $h(x)=H^{\prime}\left(w_h(x)\right)$. For a differential operator of the form $\mathcal{L}(x)=\frac{d^2}{d x^2}+h(x)-\rho$, consider the eigenvalue problem $[\mathcal{L}(x)-\lambda] w=0$ with boundary conditions $\lim _{x \rightarrow \pm \infty} w(x)=0$. Moreover, define $\Lambda=\sqrt{\rho+\lambda} ; \arg (\Lambda) \in\left(-\frac{\pi}{2}, \frac{\pi}{2}\right]$. Then the following holds:
+(i) There is a finite number of real eigenvalues $\lambda_j, j=0,1, \cdots, J$ for ~~which $\lambda_0>0, \lambda_1=$ 0 and $0>\lambda_2>\cdots>\lambda_J>-\rho$. ~~Equivalently, there is a finite number of real eigenvalues $\Lambda_j$ for which $\Lambda_0>\sqrt{\rho}, \Lambda_1=\sqrt{\rho}$ and $\sqrt{\rho}>\Lambda_2>\cdots>\Lambda_J>0$.
+(ii) The associated eigenfunctions $w_j(x)$ have $j$ distinct zeroes and are ~~even resp. odd as a function of $x$ if $j$ is even resp. odd.~~ Moreover, $\frac{d}{d x} w_h(x)$ is an eigenfunction for $\lambda_1=0$ $\left(\right.$ or $\left.\Lambda_1=1\right)$; in other words, $w_1(x) \in \operatorname{span}\left\{\frac{d}{d x} w_h(x)\right\}$.
+(iii) The eigenfunctions $w_j(x), j=0, \cdots, J$ form an orthogonal set:
+$$
+\left\langle w_j, w_k\right\rangle=\int_{-\infty}^{\infty} w_j(x) w_k(x) d x=0 \text { for } j \neq k \text {, and }\left\|w_j\right\|_2=\sqrt{\left\langle w_j, w_j\right\rangle} \neq 0 ;
+$$
+these eigenfunctions can be determined uniquely by the condition
+$$
+w_j(x) \sim 1 \cdot e^{-\Lambda_j x} \text { as } x \rightarrow \infty
+$$
+(iv) The spectrum associated to the eigenvalue problem $[\mathcal{L}(x)-\lambda] w=0$ is given by $\sigma_\lambda=(-\infty,-\rho) \cup\left\{\lambda_0, \cdots, \lambda_J\right\}$ or equivalently $\sigma_{\Lambda}=i \mathbb{R}_{>0} \cup\left\{\Lambda_0, \cdots, \Lambda_J\right\}$.
+(v) For every $\lambda \notin \sigma_\lambda$, there is a unique solution $w_\lambda^{\mathrm{R}}(x)$ (which depends smoothly on $\lambda$ ) such that
+$$
+w_\lambda^{\mathrm{R}}(x) \sim 1 \cdot e^{-\Lambda x} \text { as } x \rightarrow \infty .
+$$
+
+Moreover, the pair $\left\{w_\lambda^{\mathrm{R}}, w_\lambda^{\mathrm{L}}\right\}$ with $w_\lambda^{\mathrm{L}}(x)=w_\lambda^{\mathrm{R}}(-x)$ spans the solution space of the eigenvalue problem $[\mathcal{L}(x)-\lambda] w=0$.
+
+For (3.12) we can apply the above lemma with $\rho=1$, obtaining a set of fast eigenvalues $\lambda_{f, j}$ and their associated eigenfunctions $w_{f, j}(\xi)$. Moreover, we observe that for $\rho=1, \Lambda=\Lambda_f$ $(3.8)$.
+Next, we consider the Wronskian
+$$
+\mathcal{W}(\lambda) \stackrel{\text { def }}{=} \operatorname{det}\left(\begin{array}{cc}
+w_\lambda^{\mathrm{L}}(\xi) & w_\lambda^{\mathrm{R}}(\xi) \\
+\frac{d}{d \xi} w_\lambda^{\mathrm{L}}(\xi) & \frac{d}{d \xi} w_\lambda^{\mathrm{R}}(\xi)
+\end{array}\right)
+$$
+associated to (3.12). For notational convenience we only consider $\mathcal{W}$ as function of $\lambda$ here and in the upcoming lemma. In the forthcoming analysis we will however often switch between the equivalent expressions $\mathcal{W}(\lambda)$ and $\mathcal{W}\left(\Lambda_f\right)$. This Wronskian can be defined as a smooth, in fact analytic, function of $\lambda$ for all $\lambda \in \mathbb{C}$ outside the (closure of the) essential spectrum associated to (3.12), i.e. for $\lambda \notin(-\infty,-1]$, but including the (eigen)values $\lambda=\lambda_{f, j}$ (Lemma 3.2), by setting $\mathcal{W}\left(\lambda_{f, j}\right)=0, j=0, \ldots, J$ [33]. Note that $\mathcal{W}(\lambda)$ is in fact an Evans function [1]. In combination with Lemma 3.2, the following result on $\mathcal{W}(\lambda)$ enables us to generalize the GS/GM-type hypergeometric functions approach to the present setting.
+
+Lemma 3.3 Let $\mathcal{W}(\lambda)$ be the Wronskian associated to (3.12) and let $\lambda \notin(-\infty,-1]$, then
+$$
+\mathcal{W}(\lambda) \sim(-1)^{j+1}\left\|w_{f, j}\right\|_2^2\left(\lambda-\lambda_{f, j}\right) \quad \text { as } \quad \lambda \rightarrow \lambda_{f, j}, j=0, \ldots, J .
+$$
+
+See Fig. 5 for a sketch of a $\mathcal{W}(\lambda)$ for real $\lambda>-1$.
+Proof Since we know that $\mathcal{W}(\lambda)$ is a smooth function of $\lambda$ near its zeroes $\lambda_{f, j}$, the proof can be based on a (finite) Taylor expansion of $\mathcal{W}\left(\lambda_{f, j}+\delta\right)$ for $\delta=\lambda-\lambda_{f, j} \in \mathbb{C}$ small. To do so, we first need to approximate $w_\lambda^{\mathrm{R}}(\xi)$ for $\lambda=\lambda_{f, j}+\delta$. Therefore, we introduce the (regular) approximation
+$$
+w_{\lambda_{f, j}+\delta}^{\mathrm{R}}(\xi)=w_{f, j}(\xi)+\delta w_{1, j}(\xi)+\mathcal{R}(\xi ; \delta),
+$$
+in which $\mathcal{R}(\xi ; \delta)$ represents the error terms. This expansion can in general not give a valid approximation of $w_{\lambda_{f, j}+\delta}^{\mathrm{R}}(\xi)$ for $\xi \rightarrow \infty$. However, it follows directly from Poincaré's expansion theorem (see for instance [39]) that for every $\rho \in[0,1)$ there is a positive $\mathcal{O}(1)$ constant $C_\rho$ such that
+$$
+\left|w_{\lambda_{f, j}+\delta}^{\mathrm{R}}(\xi)-\left(w_{f, j}(\xi)+\delta w_{1, j}(\xi)\right)\right|=|\mathcal{R}(\xi ; \delta)|<C_\rho \delta^{2(1-\rho)},
+$$
+for $|\xi|<\mathcal{O}\left(\delta^{-\rho}\right)$. Note that the standard (and natural) result that $\mathcal{R}(\xi ; \delta) \mid=\mathcal{O}\left(\delta^2\right)$ on $\mathcal{O}(1) \xi$-intervals corresponds to the case $\rho=0$ in (3.17). To determine the leading order correction $w_{1, j}(\xi)$, we substitute (3.16) into (3.12) and obtain the inhomogeneous problem
+$$
+\left(\mathcal{L}_f(\xi)-\lambda_{f, j}\right) w_{1, j}=w_{f, j}(\xi)+\mathcal{O}\left(\delta^{1-2 \rho}\right)
+$$
+(3.12) on the domain $|\xi|<\mathcal{O}\left(\delta^{-\rho}\right)$. It is clear that for the above to be a leading order expression, $\rho<\frac{1}{2}$ must hold. This equation cannot have a solution that is bounded on $\mathbb{R}$, since the operator $\mathcal{L}_f(\xi)-\lambda$ is not invertible at $\lambda=\lambda_{f, j}$ and the inhomogeneous term $b(\xi)=w_{f, j}(\xi)$ clearly does not satisfy the solvability condition $\left\langle b, w_{f, j}\right\rangle=\left\langle w_{f, j}, w_{f, j}\right\rangle=$ 0 , see also Sect. 3.3. However, this is not a problem: we are constructing an approximation of a solution $w_\lambda^{\mathrm{R}}(\xi)$ and this solution need not be bounded on $\mathbb{R}$ for $\lambda \neq \lambda_{f, j}$ (Lemma 3.2). Since $w_{f, j}(\xi)$ is a solution of the homogeneous problem, we apply the variation of constants method, i.e. we introduce the unknown function $c_j(\xi)$ by $w_{1, j}(\xi)=c_j(\xi) w_{f, j}(\xi)$ and obtain an equation for $c_j$ :
+$$
+\ddot{c}_j w_{f, j}+2 \dot{c}_j \dot{w}_{f, j}=w_{f, j}
+$$
+
+This implies that
+$$
+\dot{c}_j(\xi)=\frac{1}{w_{f, j}^2(\xi)}\left[\int_0^{\xi} w_{f, j}^2(\eta) d \eta+c_{1, j}\right],
+$$
+where $c_{1, j}$ is a constant of integration. Writing $c_{1, j}=\hat{c}_{1, j}-\int_0^{\infty} w_{f, j}^2(\eta) d \eta$, we investigate the behaviour of $\dot{c}_j(\xi)$ as $\xi \rightarrow \delta^{-\rho}$. From Lemma 3.2, we know that $w_{f, j}(\xi) \sim e^{-\Lambda_{f, j} \delta^{-\rho}}$ as $\xi \rightarrow \delta^{-\rho}$. Therefore,
+$$
+\begin{aligned}
+\dot{c}_j(\xi) \sim & e^{2 \Lambda_{f, j} \delta^{-\rho}}\left[\int_0^{\delta^{-\rho}} w_{f, j}^2(\eta) d \eta-\int_0^{\infty} w_{f, j}^2(\eta) d \eta+\hat{c}_{1, j}\right] \\
+& =\left[-\int_{\delta^{-\rho}}^{\infty} w_{f, j}^2(\eta) d \eta+\hat{c}_{1, j}\right] e^{2 \Lambda_{f, j} \delta^{-\rho}} \\
+& =-\frac{1}{2 \Lambda_{f, j}}+\hat{c}_{1, j} e^{2 \Lambda_{f, j} \delta^{-\rho}}
+\end{aligned}
+$$
+as $\xi \rightarrow \delta^{-\rho}$. Since the solution $w_{\lambda_{f, j}+\delta}^{\mathrm{R}}(\xi)$ (3.16) does not grow exponentially as $\xi \rightarrow \delta^{-\rho}$ (3.14), it necessarily follows that $w_{1, j}(\xi)$ does neither. Therefore, $c_j(\xi)$ can at most grow as $\frac{1}{w_{f, j}}$, which is as $e^{\Lambda_{f, j} \xi}$. From this, it follows that $\hat{c}_{1, j}=0$ and therefore
+$$
+c_{1, j}=-\int_0^{\infty} w_{f, j}^2(\eta) d \eta \quad \text { so that } \dot{c}_j(\xi)=-\frac{1}{w_{f, j}^2(\xi)} \int_{\xi}^{\infty} w_{f, j}^2(\eta) d \eta .
+$$
+
+We now return to the Wronskian (3.15). Since $w_{\lambda_{f, j}+\delta}^{\mathrm{R}}(\xi)=w_{f, j}(\xi)\left(1+\delta c_j(\xi)\right)+\mathcal{R}(\xi ; \delta)$, we can use Lemma 3.2 (ii),(v) to obtain
+$$
+\begin{aligned}
+w_{\lambda_{f, j}+\delta}^{\mathrm{R}}(\xi) & =w_{f, j}(\xi)\left(1+\delta c_j(\xi)\right)+\mathcal{R}(\xi ; \delta) \\
+w_{\lambda_{f, j}+\delta}^{\mathrm{L}}(\xi) & =(-1)^j w_{f, j}(\xi)\left(1+\delta c_j(-\xi)\right)+\mathcal{R}(-\xi ; \delta) \\
+\frac{\mathrm{d}}{\mathrm{d} \xi} w_{\lambda_{f, j}+\delta}^{\mathrm{R}}(\xi) & =\frac{\mathrm{d} w_{f, j}}{\mathrm{~d} \xi}(\xi)\left(1+\delta c_j(\xi)\right)+\delta w_{f, j}(\xi) \frac{\mathrm{d} c_j}{\mathrm{~d} \xi}(\xi)+\frac{\mathrm{d} \mathcal{R}}{\mathrm{d} \xi}(\xi ; \delta) \\
+\frac{\mathrm{d}}{\mathrm{d} \xi} w_{\lambda_{f, j}+\delta}^{\mathrm{L}}(\xi) & =(-1)^j\left[\frac{\mathrm{d} w_{f, j}}{\mathrm{~d} \xi}(\xi)\left(1+\delta c_j(-\xi)\right)-\delta w_{f, j}(\xi) \frac{\mathrm{d} c_j}{\mathrm{~d} \xi}(-\xi)\right]-\frac{\mathrm{d} \mathcal{R}}{\mathrm{d} \xi}(-\xi ; \delta)
+\end{aligned}
+$$
+
+Since $w_\lambda^{\mathrm{L} / \mathrm{R}}(\xi)$ depends smoothly on $\lambda$ (cf. Lemma 3.2), the Poincaré expansion theorem can be applied to $\frac{\mathrm{d}}{\mathrm{d} \xi} w_{\lambda_{f, j}+\delta}^{\mathrm{R}}$ to obtain the result that for every $\hat{\rho} \in[0,1)$ there is a $C_{\hat{\rho}}$ such that $\left|\frac{\mathrm{d} \mathcal{R}}{\mathrm{d} \xi}(\xi ; \delta)\right|<C_{\hat{\rho}} \delta^{2(1-\hat{\rho})}$. Choosing $\hat{\rho}=\rho<\frac{1}{2}$ enables us to treat $\frac{\mathrm{d} \mathcal{R}}{\mathrm{d} \xi}$ as a higher order term. Using the above expansions for the Wronskian, we obtain
+$$
+\begin{aligned}
+\mathcal{W}\left(\lambda_{f, j}+\delta\right)= & (-1)^j\left(w_{f, j} \frac{\mathrm{d} w_{f, j}}{\mathrm{~d} \xi}-\frac{\mathrm{d} w_{f, j}}{\mathrm{~d} \xi} w_{f, j}\right)\left(1+\delta c_j(\xi)+\delta c_j(-\xi)\right) \\
+& +\delta(-1)^j w_{f, j}^2(\xi)\left[\frac{\mathrm{d} c_j}{\mathrm{~d} \xi}(\xi)+\frac{\mathrm{d} c_j}{\mathrm{~d} \xi}(-\xi)\right]+\mathcal{O}\left(\delta^2\right) \\
+= & \delta(-1)^j w_{f, j}^2(\xi)\left[\frac{\mathrm{d} c_j}{\mathrm{~d} \xi}(\xi)+\frac{\mathrm{d} c_j}{\mathrm{~d} \xi}(-\xi)\right]+\mathcal{O}\left(\delta^2\right),
+\end{aligned}
+$$
+in which we refrained from explicitly writing down all $\mathcal{O}\left(\delta^2\right)=\mathcal{O}\left(\left|\lambda-\lambda_{f, j}\right|^2\right)$ correction terms. Using (3.19), we see that
+$$
+\begin{aligned}
+w_{f, j}^2(\xi)\left[\frac{\mathrm{d} c_j}{\mathrm{~d} \xi}(\xi)+\frac{\mathrm{d} c_j}{\mathrm{~d} \xi}(-\xi)\right] & =-\int_{\xi}^{\infty} w_{f, j}^2(\eta) \mathrm{d} \eta-\int_{-\xi}^{\infty} w_{f, j}^2(\eta) \mathrm{d} \eta=-\int_{-\infty}^{\infty} w_{f, j}^2(\eta) \mathrm{d} \eta \\
+& =-\left\|w_{f, j}\right\|_2^2
+\end{aligned}
+$$
+using again Lemma 3.2 (ii).
+
+Clearly, the Wronskian $\mathcal{W}(\lambda)$ has an extremum for $\lambda \in \mathbb{R}$ between two successive eigenvalues. Based on the previous lemma it can easily be established that this extremum is a maximum between $\lambda_{2 j+1}<\lambda_{2 j}$ and a minimum between $\lambda_{2 j}<\lambda_{2 j-1}$. The following lemma determines the limit behavior of $\mathcal{W}(\lambda)$ for $\lambda \in \mathbb{R}$ large, see also Fig. 5.
+
+Lemma 3.4 Let $\mathcal{W}(\lambda)$ be the Wronskian associated to (3.12) and let $\lambda \in \mathbb{R} \backslash(-\infty,-1]$, then
+$$
+\mathcal{W}(\lambda) \leadsto-2 \sqrt{\lambda} \text { as } \lambda \rightarrow+\infty .
+$$
+
+Proof Define $\delta=1 / \Lambda_f>0\left(\Lambda_f \in \mathbb{R}\right)$. It can be shown by the methods of the above proof that for $\delta$ small enough, i.e. $\Lambda_f>0$ large enough,
+$$
+w_\lambda^{\mathrm{R}}(\xi)=e^{-\Lambda_f \xi}(1+\mathcal{O}(\delta)), \quad \text { and } \quad w_\lambda^{\mathrm{L}}(\xi)=e^{\Lambda_f \xi}(1+\mathcal{O}(\delta)) .
+$$
+on an $\mathcal{O}(1) \xi$-domain $\supset\{\xi=0\}$. Hence, for $\Lambda_f$ large enough,
+$$
+\begin{aligned}
+\mathcal{W}\left(\Lambda_f\right) & =\operatorname{det}\left(\begin{array}{cc}
+e^{\Lambda_f \xi}(1+\mathcal{O}(\delta)) & e^{-\Lambda_f \xi}(1+\mathcal{O}(\delta)) \\
+\Lambda_f e^{\Lambda_f \xi}(1+\mathcal{O}(\delta)) & -\Lambda_f e^{-\Lambda_f \xi}(1+\mathcal{O}(\delta))
+\end{array}\right) \\
+& =-2 \Lambda_f(1+\mathcal{O}(\delta))
+\end{aligned}
+$$
+which is equivalent to the statement of the lemma by the definition of $\Lambda_f$ (3.8).
+3.3 The Inhomogeneous Fast Reduced Sturm-Liouville Problem
+
+Since the inhomogeneous problem (3.11) is linear (and can thus be rescaled), we define $v_{\text {in }}(\xi ; \lambda)$ as the bounded solution of
+$$
+\left(\mathcal{L}_f(\xi)-\lambda\right) v=-\frac{\partial G}{\partial U}\left(u_*, v_{f, h}\left(\xi ; u_*\right)\right) .
+$$
+
+Note that this is only possible if $u(0) \neq 0$; the situation where $u(0)=0$ will be treated in Sect. 5 (which is related to the case $B_{-}(\lambda)=0$ there). It follows from the general theory on Sturm-Liouville problems that $v_{\text {in }}(\xi ; \lambda)$ is uniquely determined for $\lambda \notin \sigma_f$ ([33]). Since $\left\{w_\lambda^{\mathrm{L}}(\xi), w_\lambda^{\mathrm{R}}(\xi)\right\}=\left\{w_\lambda^{\mathrm{R}}(-\xi), w_\lambda^{\mathrm{R}}(\xi)\right\}$ span the solution space associated to the homogeneous problem (Lemma 3.2), $v_{\text {in }}(\xi ; \lambda)$ can be determined explicitly (in terms of $\left.w_\lambda^{\mathrm{R}}( \pm \xi)\right)$.
+
+Lemma 3.5 The bounded solution of (3.25) is given by $v_{i n}(\xi ; \lambda)=A(\xi) w_\lambda^{\mathrm{R}}(\xi)+$ $A(-\xi) w_\lambda^{\mathrm{R}}(-\xi)$, with
+$$
+A(\xi)=A(\xi ; \lambda)=-\frac{1}{\mathcal{W}(\lambda)} \int_{-\infty}^{\xi} \frac{\partial G}{\partial U}\left(u_*, v_{f, h}\left(\tilde{\xi} ; u_*\right)\right) w_\lambda^{\mathrm{R}}(-\tilde{\xi}) d \tilde{\xi}
+$$
+
+Note that it immediately follows from this expression and assumption (A4) in combination with the properties of $v_{f, h}\left(\xi ; u_*\right)$ that $v_{\text {in }}(\xi ; \lambda)$ decays exponentially fast to 0 as $\xi \rightarrow \pm \infty$ (and as $\xi$ approaches the boundaries of $I_f(2.7)$ ).
+
+Proof By the variation of constants approach, we introduce the unknown functions $A^{\mathrm{L} / \mathrm{R}}(\xi)$ by $v_{\text {in }}(\xi)=A^{\mathrm{L}}(\xi) w_\lambda^{\mathrm{L}}(\xi)+A^{\mathrm{R}}(\xi) w_\lambda^{\mathrm{R}}(\xi)$. Substitution in (3.25) yields
+$$
+\dot{A}^{\mathrm{L} / \mathrm{R}}=\frac{\mp 1}{\mathcal{W}(\lambda)} \frac{\partial G}{\partial U}\left(u_*, v_{f, h}\left(\xi ; u_*\right)\right) w_\lambda^{\mp}(\xi)
+$$
+so that
+$$
+A^{\mathrm{L} / \mathrm{R}}(\xi)=A^{\mathrm{L} / \mathrm{R}}(0) \mp \frac{1}{\mathcal{W}(\lambda)} \int_0^{\xi} \frac{\partial G}{\partial U}\left(u_*, v_{f, h}\left(\tilde{\xi} ; u_*\right)\right) w_\lambda^{\mp}(\tilde{\xi}) d \tilde{\xi} .
+$$
+
+Both the operator $\mathcal{L}_f(\xi)$ and the inhomogeneous term in (3.25) are even as function of $\xi$. This implies that also $v_{\text {in }}(\xi ; \lambda)$ must be even, so that $A^{\mathrm{R}}(\xi)=A^{\mathrm{L}}(-\xi) \stackrel{\text { def }}{=} A(\xi)$ and $A^{\mathrm{R}}(0)=A^{\mathrm{L}}(0)$. A straightforward analysis yields that $v_{\text {in }}(\xi)$ can only be bounded if
+$$
+A(0)=-\frac{1}{\mathcal{W}(\lambda)} \int_{-\infty}^0 \frac{\partial G}{\partial U}\left(u_*, v_{f, h}\left(\tilde{\xi} ; u_*\right)\right) w_\lambda^{\mathrm{L}}(\tilde{\xi}) d \tilde{\xi}
+$$
+which is a converging integral by assumption (A4).
+A priori, there is a singularity in the solutions $v_{\text {in }}(\xi ; \lambda)$ as $\lambda \rightarrow \lambda_{f, j}$, due to the fact that $\left(\mathcal{L}_f(\xi)-\lambda\right)$ is not invertible at $\lambda_{f, j}$ (and that thus $\mathcal{W}\left(\lambda_{f, j}\right)=0$, Lemma 3.3). However, by the Fredholm alternative, (3.25) will have solutions for $\lambda=\lambda_{f, j}$ with $j$ odd, since $w_{f, j}(\xi)$ is odd as function of $\xi$ (Lemma 3.2) and the (even) inhomogeneity of (3.25) thus satisfies the solvability condition.
+
+Corollary 3.6 For $j$ even,
+$$
+v_{i n}(\xi ; \lambda) \sim\left(\frac{w_{f, j}(\xi)}{\left\|w_{f, j}\right\|_2^2} \int_{-\infty}^{\infty} \frac{\partial G}{\partial U}\left(u_*, v_{f, h}\left(\tilde{\xi} ; u_*\right)\right) w_{f, j}(\tilde{\xi}) d \tilde{\xi}\right) \cdot \frac{1}{\lambda-\lambda_{f, j}} \text { as } \lambda \rightarrow \lambda_{f, j},
+$$
+while $\lim _{\lambda \rightarrow \lambda_{f, j}} v_{i n}(\xi ; \lambda)$ exists for $j$ odd.
+Proof Using the fact that $w_{f, j}(\xi)$ is even/odd as function of $\xi$ for $j$ even/odd, identity (3.27) can be obtained directly by combining Lemmas 3.3 and 3.5, both for $j$ even and for $j$ odd—in the latter case, the integral in (3.27) vanishes.
+
+It will be necessary to also have an explicit characterization of $v_{\text {in }}(\xi ; \lambda)$ for $\lambda$ near $\lambda_{f, 1}$, the crucial (odd) case $j=1$ for which $\lambda_{f, 1}=0$.
+
+Lemma 3.7 For $\lambda=\lambda_{f, 1}=0, v_{\text {in }}(\xi ; \lambda)$ is not uniquely determined: here,
+$$
+v_{i n}(\xi ; 0)=\left.\frac{\partial}{\partial u} v_{f, h}(\xi ; u)\right|_{u=u_*}+C \dot{v}_{f, h}\left(\xi ; u_*\right)
+$$
+in which $C \in \mathbb{R}$ is a free parameter.
+It is also possible to obtain leading order approximations of $v_{\text {in }}(\xi ; \lambda)$ for $\lambda$ near $\lambda_{f, j}$ with $j \geq 3$ odd. However, we refrain from going into these details.
+
+Proof The fact that 
+$$\left.\frac{\partial}{\partial u} v_{f, h}(\xi ; u)\right|_{u=u_*}$$
+is a solution of (3.25) follows immediately from taking the derivative with respect to the parameter $u$ (or $u_0$ ) in (2.3). Uniqueness is lost by adding the kernel $\dot{v}_{f, h}\left(\xi ; u_*\right)$ associated to the operator $\mathcal{L}_f(\xi)$.
