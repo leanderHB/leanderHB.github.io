@@ -101,9 +101,13 @@ pagination:
     <hr>
 
 {% endif %}
-<h1>The big chaos</h1>
-<p>Here are all the different versions and tries of things I've done for the thesis. Not all of it is good, most of it isn't, in fact. However, I think it's nice to have an overview of all that's happened so far.  </p>
 
+
+{% capture introduction_content %}
+{% include overview.md %}
+{% endcapture %}
+
+{{ introduction_content | markdownify }}
 
   <ul class="post-list">
 

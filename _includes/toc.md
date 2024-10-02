@@ -23,6 +23,7 @@
 - [Limiting behaviour lambda -> 0](../limiting-behaviour-lambda-->-0)
 - [Integraal expliciet](../integraal-expliciet)
 - [Kerstboom](../kerstboom)
+- [DV_JDDE](../dv_jdde)
 - [Math thesis](../math-thesis)
 - [Thesis todo](../thesis-todo)
 - [Physics thesis](../physics-thesis)

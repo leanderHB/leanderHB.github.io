@@ -10,7 +10,7 @@ date: 2024-09-12
     white-space: nowrap; /* Prevent the text from wrapping */
 }
 </style>
-see [Expanden rond the volledige oplossing](../arjen-notes-(my-interpretation)/) for more. 
+see [Expanden rond the volledige oplossing]({% link _posts/2024-06-25-expanden-rond-the-volledige-oplossing.md %}) for more. 
 
 ## Fast linearized system
 <div class="math-container">\[\begin{aligned}
@@ -126,7 +126,7 @@ Integrating over the fast interval, we find:
 <div class="math-container">\[
 \Delta_{fast}\hat{\hat v}_\xi = \int\hat\lambda \epsilon^{2+\nu} \hat{\hat v}+\epsilon^{2-\nu} f_u^*(u^*_0,K_0^*)\hat u+ \epsilon^{2} f_v^*(u^*_0,K_0^*)\hat{\hat v } d\xi = \mathcal O(\epsilon^2)
 \]</div>
-Hmm, so to match orders, we require $$\nu = 2$$, and then everything becomes a mess... [Nu is twee!](../arjen-notes-(my-interpretation)/)
+Hmm, so to match orders, we require $$\nu = 2$$, and then everything becomes a mess... [Nu is twee!]({% link _posts/2024-10-02-nu-is-twee!.md %})
 
 
 # Appendices

@@ -291,8 +291,8 @@ We have that the limiting behaviour for large $$\lambda$$ is $$W(\lambda)\sim -2
 moet $$\nu$$ hetzelfde zijn aan beide kanten? Voelt veel meer restrictive dan nodig.
 ![Image](/assets/images/Pasted image 20240523124733.png)
 Wat is poincare expansion theorem? 
-![image001.png](../limiting-behaviour-lambda-->-0/)
-![image002.png](../limiting-behaviour-lambda-->-0/)
+![[image001.png]]
+![[image002.png]]
 
 
 hoe krijg je de $$(-1)^i$$ voor $$w^L$$? 

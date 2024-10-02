@@ -39,7 +39,7 @@ I = -\int  [(\hat\lambda+f_{uu}(u_0^*,K_0^*)u_1^* +f_{uv}(u_0^*,K_0^*)(K_1^* -u^
 Good news: integral indeed converges. Bad news, I have no clue what to do with this (:
 
 
-in enge termen schrijf ik dit om naar een integraal over alleen maar eerste afgeleiden van $$f$$, maar nu wel een $$\hat u_{1,\xi}$$ term... [Enge termen](../oude-versie-fast-jump/)
+in enge termen schrijf ik dit om naar een integraal over alleen maar eerste afgeleiden van $$f$$, maar nu wel een $$\hat u_{1,\xi}$$ term... [Enge termen]({% link _posts/2024-06-25-enge-termen.md %})
 <div class="math-container">\[
 \begin{aligned}
 I = -\int  [(\hat\lambda+f_{v}(u_0^*,K_0^*)) u_{0,\xi}^*-f_u(u^*_0,K^*_0)u_{1,\xi}^*+f_{u}(u^*_0,K^*_0)u_{0,\xi}^*]d\xi

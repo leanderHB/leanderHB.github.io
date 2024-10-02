@@ -55,7 +55,7 @@ u_x = \pm \sqrt{2E-2 F(u)}
 This requires $$F(u)\leq E\quad\forall u$$ and $$F(u)<E$$ outside the limit points, which makes sense, to roll down the potential and come to a stop on the other side of the potential, we can't go over bigger hills than the one we started on. 
 Consider a small translation: $$\tilde u(x)=u(x+dx)$$. The difference is given by $$u(x)-\tilde u(x)$$. Then of course for a small translation $$dx$$, the difference is to first order given by $$u_xdx$$. This is then the translational mode that has $$\lambda=0$$, and has no zeros, since $$u_x = \pm \sqrt{2E-2 F(u)}$$. 
 With a bit of numerics, we can find $$\eta_0$$ and integrate the ODE starting barely outside one of the saddles (for the system that Braun chooses):
-![hetero.png](../vergelijking-met-mara/)
+![[hetero.png]]
 # Slow and fast systems
 We analyze the system on two separate scales, we define a boundary layer in the variable $$x$$: $$x\in I_f=[-\sqrt\epsilon,\sqrt\epsilon]$$, since the width of the front is on the order $$\epsilon$$, we can neglect the front in the slow regime, which corresponds to the plateaus. The next section treats this in more detail.
 ## Slow

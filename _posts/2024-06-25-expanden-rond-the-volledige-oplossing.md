@@ -10,7 +10,7 @@ date: 2024-06-25
     white-space: nowrap; /* Prevent the text from wrapping */
 }
 </style>
-connected to [Arjen Notes (my interpretation)](../expanden-rond-the-volledige-oplossing/)
+connected to [Arjen Notes (my interpretation)]({% link _posts/2024-09-12-arjen-notes-(my-interpretation).md %})
 Take the stationary equation for $$u$$:
 <div class="math-container">\[
 u_{\xi\xi}+f(u,K-\epsilon^2u)=0
@@ -61,7 +61,7 @@ v^*&=K^*-\epsilon^2 u^* = K_0^*+\epsilon^2 (K_1^* -u^*_0)\\
 \hat u&=\hat u_0+\epsilon^2\hat u_1\\
 \hat v&=\epsilon^2\hat{\hat v}_0+\epsilon^4\hat{\hat v}_1
 \end{aligned}\]</div>
-Here we use $$\hat{\hat v}$$ as otherwise, we get no solutions, see [Problem](../expanden-rond-the-volledige-oplossing/)
+Here we use $$\hat{\hat v}$$ as otherwise, we get no solutions, see [Problem]({% link _posts/2024-06-24-problem.md %})
 we get:
 <div class="math-container">\[
 \begin{aligned}
@@ -135,14 +135,14 @@ The slow region is a linear, constant coefficient problem, so $$\hat u_1$$ will 
 \]</div>
 Good news: integral indeed converges. Bad news, I have no clue what to do with this (:
 
-in enge termen schrijf ik dit om naar een integraal over alleen maar eerste afgeleiden van $$f$$, maar nu wel een $$\hat u_{1,\xi}$$ term... [Enge termen](../expanden-rond-the-volledige-oplossing/)
+in enge termen schrijf ik dit om naar een integraal over alleen maar eerste afgeleiden van $$f$$, maar nu wel een $$\hat u_{1,\xi}$$ term... [Enge termen]({% link _posts/2024-06-25-enge-termen.md %})
 <div class="math-container">\[
 \begin{aligned}
 \Delta_{fast} \hat{\hat v}_{\xi}  = -\int  [(\hat\lambda-f_u(u^*_0,K^*_0)u_{1,\xi}^*+f_{v}(u^*_0,K^*_0)u_{0,\xi}^*]d\xi
 \end{aligned}
 \]</div>
 
-[oude versie fast jump](../expanden-rond-the-volledige-oplossing/)
+[oude versie fast jump]({% link _posts/2024-06-25-oude-versie-fast-jump.md %})
 
 ### afgeleide langs functie
 <div class="math-container">\[

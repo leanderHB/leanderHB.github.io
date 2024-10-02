@@ -76,7 +76,7 @@ After the presentation, your supervisor and independent second reader will toget
 
 The assessment criteria are depicted below. Supervisor and Independent Reader assess both the Thesis (50%) and Final Presentation (10%). The section called Attitude and Execution (35%), which contains much more than its title suggests, is only assessed by the Supervisor.
 
-![Assessment-Criteria.png](../math-thesis/)
+![[Assessment-Criteria.png]]
 
 
 The remaining 5% is for your Midterm Presentation, which is assessed by the Master Seminar Coordinator.
@@ -172,7 +172,7 @@ After the presentation, your supervisor and independent second reader will toget
 
 The assessment criteria are depicted below. Supervisor and Independent Reader assess both the Thesis (50%) and Final Presentation (10%). The section called Attitude and Execution (35%), which contains much more than its title suggests, is only assessed by the Supervisor.
 
-![Assessment-Criteria.png](../math-thesis/)
+![[Assessment-Criteria.png]]
 
 
 The remaining 5% is for your Midterm Presentation, which is assessed by the Master Seminar Coordinator.
