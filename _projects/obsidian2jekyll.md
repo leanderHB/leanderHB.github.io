@@ -24,11 +24,11 @@ In the end, this is the magic regex to make the math not be an ugly string of ba
 ## Links
 The links were bad, jekyll wants a certain format for the "posts", which are meant for blogs. They keep the date in the file, but my obsidian files don't have that. So I had to look up the files in the system and get the date, but obsidian also allows for not keeping track of the full path, so I had to look in all directories of my vault, which made all this a mess. 
 
-## Images
-Images suck as well, they are copied to the assets folder, then the link is changed to that image instead. 
-
 ## Raw markdown
 I too often want to grab some markdown or latex from a document but can't find the source code quickly, so I made an option to view the raw data. The raw file is simply copied into the jekyll project and a link is added to the markdown that gets parsed. 
+
+## Images
+Images suck as well, they are copied to the assets folder, then the link is changed to that image instead. 
 
 ## Overview
 The overview text on top of the listing of all the files, is also just a markdown file, in Obsidian, so this gets treated differently. 
