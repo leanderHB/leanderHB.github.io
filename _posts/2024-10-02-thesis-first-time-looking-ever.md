@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Thesis"
+title: "Thesis first time looking ever"
 date: 2024-10-02
 ---
 
@@ -59,4 +59,4 @@ tions in domains of R n with conical points, Ann. Global Anal. Geom. 10 (1992) 1
 
 <img src="/assets/images/Pasted image 20240127230545.png" class="img-fluid rounded z-depth-1" alt="Pasted image 20240127230545.png">
 
-[View Raw Markdown](/assets/md/Thesis.md)
+[View Raw Markdown](/assets/md/Thesis first time looking ever.md)
